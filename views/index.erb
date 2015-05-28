@@ -1,0 +1,144 @@
+
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Home | Gists.io</title>
+    <meta name="description" content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/javascript/semantic.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/highcharts/highcharts.js"></script>
+    <script src="../js/highcharts/modules/exporting.src.js"></script>
+    
+</head>
+<body>
+
+    <nav class="ui fixed menu inverted navbar">
+        <a href="" class="brand item">Meteorite Landings</a>
+        <a href="" class="active item">Home</a>
+        <a href="" class="item">Features <%#= @zeo %></a>
+        <a href="" class="item">Contact</a>
+    </nav> <!-- end nav -->
+
+    <main class="ui page grid">
+        <div class="row">
+            <div class="center aligned starter column">
+                <h1 class="ui header">Semantic UI starter template</h1>
+
+                <!-- highcharts container 
+                
+                -->
+                <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
+                </div>
+
+
+                name: <%= @data.first["name"] %><br>
+                year: <%= @data.first["year"] %><br>
+                reclong: <%= @data.first["reclong"] %><br>
+                <%= @data.first %>
+                
+                <% @data.each do |record| %>
+                <!--  
+                notes:
+                 to comment for ruby, add hashtag between percentage (%) and equal (=).
+
+
+                 -->
+                    <div>name <%= record["name"] %></div>
+                    <div>year <%= record["year"] %></div>
+                    <div>reclong <%= record["reclong"] %></div>
+                    <div>id <%= record["id"] %></div>
+                    <div>mass <%= record["mass"] %></div>
+                    <div>nametype <%= record["nametype"] %></div>
+                    <div>longitude <%= record['geolocation']['longitude'] if record['geolocation'] %></div>
+                    <div>latitude <%= record['geolocation']["latitude"] if record['geolocation'] %></div>
+                    <br/>
+                <% end %>
+                <p>Use this document as a way to quickly start any new project.</p>
+                <p>All you get is this text and a mostly barebones HTML document.</p>
+            </div>
+
+        </div>
+        <div class="row">
+        </div>
+    </main>
+
+    <script type="text/javascript">
+        // if you mess up replace from here
+        // http://jsfiddle.net/gh/get/jquery/1.9.1/highslide-software/highcharts.com/tree/master/samples/highcharts/demo/line-basic/
+        // 
+
+        $(function () {
+            $('#container').highcharts({
+                title: {
+                    text: 'Monthly Average Temperature',
+                    x: -20 //center
+                },
+                subtitle: {
+                    text: 'Source: WorldClimate.com',
+                    x: -20
+                },
+                xAxis: {
+                    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                },
+                yAxis: {
+                    title: {
+                        text: 'Temperature (°C)'
+                    },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                tooltip: {
+                    valueSuffix: '°C'
+                },
+                legend: {
+                    layout: 'horizontal',
+                    align: 'right',
+                    verticalAlign: 'middle',
+                    borderWidth: 0
+                },
+                series: [{
+                    name: 'Tokyo',
+                    data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+                }, {
+                    name: 'New York',
+                    data: [-0.2, 0.8, 5.7, 11.3, 17.0, 22.0, 24.8, 24.1, 20.1, 14.1, 8.6, 2.5]
+                }, {
+                    name: 'Berlin',
+                    data: [-0.9, 0.6, 3.5, 8.4, 13.5, 17.0, 18.6, 17.9, 14.3, 9.0, 3.9, 1.0]
+                }, {
+                    name: 'London',
+                    data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+                }]
+            });
+        });
+
+        // if you mess up replace to here
+    </script>
+    
+
+</body>
+</html>
