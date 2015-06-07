@@ -1,0 +1,104 @@
+transaction_id,transaction_type,transaction_type_desc,year,filing_type,filing_included_nsfs,amount,registrant_name,registrant_is_firm,client_name,client_category,client_ext_id,client_parent_name,include_in_industry_totals,use,affiliate,serialid
+B05C4BF1-F9F3-4FC3-8D69-158154E3A84A,q4,FOURTH QUARTER REPORT,2010,i,f,20000,Bluewater Strategies,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,397
+515AF4A8-34FF-4E80-A1C4-624F5317D323,er,YEAR-END REPORT,2000,n,f,10500,"Sklar, Stella KZ",t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,3172
+51C1A606-DE59-4566-95B0-4E1AEC27A9B6,et,YEAR-END TERMINATION,2006,n,f,0,Greenberg Traurig LLP,t,Arizona Solar Energy Industries Assn,E1500,,Arizona Solar Energy Industries Assn,t,t,f,4127
+33573A5F-B1C2-43E8-8657-E48B662ABA54,er,YEAR-END REPORT,2007,i,f,120000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,15279
+00AE584F-50DE-499F-B1A5-4EF869257FE7,m,MID-YEAR REPORT,2004,i,f,0,P Strategies Inc,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,18539
+71978E29-B774-46D7-A9E0-A67DCBCCE785,m,MID-YEAR REPORT,2006,i,f,0,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,24488
+B202A50E-9246-44BF-BF45-C36F1DBCA490,m,MID-YEAR REPORT,2007,p,f,300000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,39532
+B2D3D854-B801-482C-B018-87F2CDC18945,q1,FIRST QUARTER REPORT,2011,p,f,311200,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,51378
+9434BAE8-7A86-464D-9ECB-A25A709BCF9F,m,MID-YEAR REPORT,2003,p,f,40000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,54596
+1998/01/000/128/000128309-6,er,YEAR-END REPORT,1998,n,f,40000,Stella Group,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,55604
+DA1230D7-E435-4C83-BCAE-B9F689463EB6,q1,FIRST QUARTER REPORT,2008,i,f,60000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,61944
+B32DFABC-53FB-4E48-9875-591481F33FFD,q4,FOURTH QUARTER REPORT,2008,n,f,15000,Mcallister & Quinn,t,The Solar Energy Consortium,E1500,,The Solar Energy Consortium,t,t,f,62121
+9495163F-4492-4C6A-8D55-2DA1C5306251,m,MID-YEAR REPORT,1999,n,f,20000,Stella Group,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,63911
+7429F401-5944-43AF-8CCF-A37A5E9F717B,q3,THIRD QUARTER REPORT,2010,i,f,24000,SC Partners,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,65798
+B3D5C48F-8EC9-400A-AAB6-20B4EA9C5C32,m,MID-YEAR REPORT,2006,n,f,0,Greenberg Traurig LLP,t,Arizona Solar Energy Industries Assn,E1500,,Arizona Solar Energy Industries Assn,t,t,f,76263
+DAF515DA-5876-4DB2-B10B-9E2ED499517E,q4,FOURTH QUARTER REPORT,2008,i,f,60000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,83639
+36F82CEA-E9CC-4283-B801-90028FD27EF4,er,YEAR-END REPORT,2001,n,f,20000,P Strategies Inc,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,89932
+3797142B-B1EE-483D-B31E-D0589CC71F15,er,YEAR-END REPORT,2006,p,f,230000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,101182
+76299859-8DC3-4754-9FC4-FBF7B55F31D0,q2,SECOND QUARTER REPORT,2009,p,f,540000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,103971
+B5A671A3-E11A-465D-B804-DC10E6BFC17F,er,YEAR-END REPORT,2005,p,f,213454,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,109738
+B6822724-C533-44E3-8EA3-19DC70D90D96,er,YEAR-END REPORT,2002,n,f,10000,MARC Assoc,t,Duke Solar Energy,E1100,,Duke Solar Energy,t,t,f,120114
+9881D956-0B39-4193-952D-625E2DE6E2F5,q1,FIRST QUARTER REPORT,2009,p,f,370000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,123218
+38E1156A-193F-4B24-BA76-A82F4A95EAE7,m,MID-YEAR REPORT,2002,n,f,20000,MARC Assoc,t,Duke Solar Energy,E1100,,Duke Solar Energy,t,t,f,125107
+B72B66DA-7DF0-4F93-9EE1-6FEBB9157549,q4,FOURTH QUARTER REPORT,2010,i,f,36000,SC Partners,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,131443
+577D6A1D-0322-4B09-9647-A6F1B0838F35,q1,FIRST QUARTER REPORT,2011,n,f,10000,Holland & Knight,t,Global Solar Energy,E1500,,Global Solar Energy,t,t,f,135388
+1CD6A16A-7439-4B21-AD44-377D42B034ED,q2a,SECOND QUARTER AMENDMENT,2008,n,f,0,Mcallister & Quinn,t,The Solar Energy Consortium,E1500,,The Solar Energy Consortium,t,t,f,137286
+1CEA5032-9012-46D9-872B-6BC0B470DA5A,q3tn,THIRD QUARTER TERMINATION (NO ACTIVITY),2009,n,f,0,Mcallister & Quinn,t,The Solar Energy Consortium,E1500,,The Solar Energy Consortium,f,f,f,137475
+78FC55DD-5109-4D91-BBDC-FD8E3B9CB861,m,MID-YEAR REPORT,2005,n,f,0,Upstream Consulting,t,Arizona Solar Energy Industries Assn,E1500,,Arizona Solar Energy Industries Assn,f,f,f,142642
+3A4BB1BF-6E7D-475A-BBB4-F1EB05703083,m,MID-YEAR REPORT,2006,i,f,0,Venable LLP,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,146493
+58366D2F-7BD5-44DD-AECB-B8DAF0D0DE7F,m,MID-YEAR REPORT,2004,p,f,40000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,149521
+79805C13-E67C-4BF8-8469-57059CD682C4,q1t,FIRST QUARTER TERMINATION,2009,i,f,40000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,153574
+99D9B6DE-75DE-42A8-8FFF-51F1C999E736,mtn,MID-YEAR TERMINATION (NO ACTIVITY),2005,n,f,0,Upstream Consulting,t,Arizona Solar Energy Industries Assn,E1500,,Arizona Solar Energy Industries Assn,f,f,f,154137
+0891E883-837B-48F2-96EA-F45297D9C8F1,m,MID-YEAR REPORT,2005,i,f,0,Venable LLP,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,172838
+9B43DD68-F79C-4A7B-837D-4966BA7870F3,q1,FIRST QUARTER REPORT,2010,i,f,20000,Bluewater Strategies,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,175620
+3BB40753-2F24-426F-9F94-F4240C0508D8,q1,FIRST QUARTER REPORT,2011,i,f,30000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,180446
+BA1B9B42-A745-47A4-AFF5-6C3346D35F8B,q1,FIRST QUARTER REPORT,2009,n,f,15000,Mcallister & Quinn,t,The Solar Energy Consortium,E1500,,The Solar Energy Consortium,t,t,f,190050
+0905779A-7842-4AF0-B7F2-E21381C9A14F,mt,MID-YEAR TERMINATION,2003,p,f,22916,Global Solar Energy,f,Global Solar Energy,E1500,,Global Solar Energy,t,t,f,192154
+209E575D-0454-4242-8894-7660FA3455D4,q4,FOURTH QUARTER REPORT,2009,i,f,30000,SC Partners,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,198167
+3DF5EB58-C80B-40BC-A523-99963F365280,m,MID-YEAR REPORT,2000,n,f,63000,Stella Group,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,210879
+BBA95A7F-8880-4BBE-BEAC-EA5CBEB74C4D,er,YEAR-END REPORT,2005,i,f,40000,Venable LLP,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,225773
+5C0F3177-767B-4604-9CFD-9B2FF17ACC66,m,MID-YEAR REPORT,2006,p,f,220000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,241008
+0BAA3A34-A449-4506-918A-E29F4523ABE7,q2,SECOND QUARTER REPORT,2008,i,f,60000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,242966
+7EFFDE7E-5982-40AF-9135-B47E07A8B400,er,YEAR-END REPORT,2001,n,f,20000,MARC Assoc,t,Duke Solar Energy,E1100,,Duke Solar Energy,t,t,f,244532
+23C03538-3B84-41A6-AEED-FC3FB2517CFF,ma,MID-YEAR AMENDMENT,2003,n,f,0,MARC Assoc,t,Duke Solar Energy,E1100,,Duke Solar Energy,t,t,f,251541
+9FF22296-11D5-4693-B290-F69208C34D93,q3,THIRD QUARTER REPORT,2009,i,f,20000,Bluewater Strategies,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,253451
+5C80BC4F-41A9-4910-BD03-4880EA855F0E,er,YEAR-END REPORT,2006,i,f,20000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,254534
+2449DBF3-553F-4CEA-9A3D-918BA944C54F,q2a,SECOND QUARTER AMENDMENT,2010,p,f,315000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,261137
+A0CDA413-F583-40FE-8D0F-B772D25DB457,q3,THIRD QUARTER REPORT,2009,p,f,342000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,265134
+BE59DCC0-1BFC-418A-BEE4-DBF16FA8BA8E,eta,YEAR-END TERMINATION AMENDMENT,2003,n,f,0,MARC Assoc,t,Duke Solar Energy,E1100,,Duke Solar Energy,t,t,f,276592
+BE73BF38-3A62-4FC9-9409-F3E6DD0637B5,q1,FIRST QUARTER REPORT,2011,i,f,35000,SC Partners,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,285167
+41B96659-76DC-4D0F-BAFF-E48C456F5FFD,er,YEAR-END REPORT,2003,p,f,40000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,289172
+0E41855D-5F1C-4DD1-84A5-F21FA10B6DA2,m,MID-YEAR REPORT,2005,p,f,204000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,306134
+0E619277-ABA1-4028-9876-0BBF40A482EB,q1,FIRST QUARTER REPORT,2011,i,f,20000,Bluewater Strategies,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,306424
+42F93037-BA96-493D-88B5-F0A27B4A433B,er,YEAR-END REPORT,2004,p,f,383000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,310179
+E748CE01-868C-457B-89E7-99528A488486,etn,YEAR-END TERMINATION (NO ACTIVITY),2004,i,f,0,P Strategies Inc,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,313016
+5F43DD79-3816-4721-B694-E1EA4E5CDC54,m,MID-YEAR REPORT,2000,n,f,10500,"Sklar, Stella KZ",t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,316602
+0F4DE736-A8E0-43E3-8D33-8698074A0520,mtn,MID-YEAR TERMINATION (NO ACTIVITY),2001,n,f,0,Stella Group,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,318346
+27622697-3669-4BEB-9E0C-8F34E0E672E9,et,YEAR-END TERMINATION,2006,i,f,100000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,319965
+27AD235D-4067-4B7C-88DE-D040DE6E330C,er,YEAR-END REPORT,2002,n,f,40000,P Strategies Inc,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,320661
+837A64F7-4BAF-41AA-A1B2-11580B5B425B,q4,FOURTH QUARTER REPORT,2008,p,f,470000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,324775
+E8679230-2114-4960-89F3-39B95BFE2A9A,q2,SECOND QUARTER REPORT,2010,i,f,20000,Bluewater Strategies,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,336609
+60942B5B-0F53-4B67-BC8F-96D1C1699CAE,et,YEAR-END TERMINATION,2006,i,f,0,Venable LLP,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,340619
+C1EA752E-F887-4767-8135-F1F2145DB315,er,YEAR-END REPORT,2007,p,f,330000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,346105
+45059419-07DF-4E70-A4E2-91682C77990E,m,MID-YEAR REPORT,2003,i,f,0,"Sklar, Stella KZ",t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,347002
+294490D4-FEB8-4907-A20B-983745182EBC,mt,MID-YEAR TERMINATION,2002,n,f,0,"Hamer, Glenn",t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,353687
+29945C61-95CA-45B0-88F9-DAE370D4AA25,q4,FOURTH QUARTER REPORT,2010,p,f,540000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,354443
+E9A9E20D-A05D-4F0F-8D03-DFA17AECF096,m,MID-YEAR REPORT,2003,i,f,0,P Strategies Inc,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,357777
+29F51951-F59B-45EC-92ED-92380A861D41,ma,MID-YEAR AMENDMENT,2005,n,f,0,Upstream Consulting,t,Arizona Solar Energy Industries Assn,E1500,,Arizona Solar Energy Industries Assn,t,t,f,362277
+EA4418A1-C29C-4109-B11C-1E2E3A6DF236,q1a,FIRST QUARTER AMENDMENT,2010,i,f,33000,SC Partners,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,367631
+EA5F0D0B-650F-4E3F-941A-F738AFBBB736,q3,THIRD QUARTER REPORT,2008,i,f,60000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,367890
+EA925865-B32B-46EA-8C0B-4BF30218601A,q2,SECOND QUARTER REPORT,2008,p,f,460000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,368399
+11A2E899-CAAC-4B5E-BCDE-0D577E4B748D,mt,MID-YEAR TERMINATION,2001,n,f,0,"Paranzino, Michael",t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,374207
+2A48D936-8F0C-4C8A-97B0-27CD8C6049FC,q2,SECOND QUARTER REPORT,2010,p,f,315000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,379766
+8709D024-5DAA-4A17-ADE8-65835113E725,et,YEAR-END TERMINATION,2003,n,f,0,MARC Assoc,t,Duke Solar Energy,E1100,,Duke Solar Energy,f,f,f,383310
+4821802F-F91B-4CCA-942A-D862414622B3,q1,FIRST QUARTER REPORT,2010,p,f,272000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,400492
+2BC9FA6B-F27F-4E4F-BC83-EB9F5986E234,q4,FOURTH QUARTER REPORT,2010,i,f,30000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,404085
+6310E912-0F06-42E8-9CEE-56B42B425F7F,q3,THIRD QUARTER REPORT,2010,p,f,366000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,406461
+ED646F14-7BD5-45C7-91C4-7AF7FC72274C,etn,YEAR-END TERMINATION (NO ACTIVITY),2004,i,f,0,P Strategies Inc,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,418216
+14BCB028-EF30-472F-ADAB-9AC036303D49,er,YEAR-END REPORT,2005,n,f,0,Greenberg Traurig LLP,t,Arizona Solar Energy Industries Assn,E1500,,Arizona Solar Energy Industries Assn,t,t,f,437078
+2E06B3CB-186C-4815-988B-7C9DE52D552C,ma,MID-YEAR AMENDMENT,2007,p,f,300000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,444042
+2E605C51-2AF7-4B8C-AE2E-5823F1A576D8,q3,THIRD QUARTER REPORT,2008,n,f,15000,Mcallister & Quinn,t,The Solar Energy Consortium,E1500,,The Solar Energy Consortium,f,f,f,444830
+4A911BC4-506C-4E0D-B907-04458781E01D,q2,SECOND QUARTER REPORT,2009,n,f,15000,Mcallister & Quinn,t,The Solar Energy Consortium,E1500,,The Solar Energy Consortium,t,t,f,456377
+65F2EA99-1D21-4EE5-BDF5-6CEC2F69F05C,er,YEAR-END REPORT,2003,i,f,0,P Strategies Inc,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,461810
+ACCA77A2-22F6-46D5-9335-B07D1787E2E4,q2a,SECOND QUARTER AMENDMENT,2009,i,f,30000,SC Partners,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,464487
+C80F6371-D57F-4D1F-95B2-E0AE000E06C8,q3a,THIRD QUARTER AMENDMENT,2008,n,f,15000,Mcallister & Quinn,t,The Solar Energy Consortium,E1500,,The Solar Energy Consortium,t,t,f,469227
+C829F9E3-8EA9-4E9D-8BC9-41B321BEDE8E,mtn,MID-YEAR TERMINATION (NO ACTIVITY),2006,i,f,0,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,469495
+F0292D5D-1126-4DBA-A41C-9079537A3D58,q3,THIRD QUARTER REPORT,2009,i,f,30000,SC Partners,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,473439
+F03C26E2-1464-47CC-A840-19CCC84AD709,q4,FOURTH QUARTER REPORT,2009,i,f,20000,Bluewater Strategies,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,473607
+C90433AE-542C-4119-B52F-3EDD5512F340,q3,THIRD QUARTER REPORT,2008,p,f,440000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,481259
+C92A1C95-9999-44DB-9365-2A8DFA70137C,q2,SECOND QUARTER REPORT,2008,n,f,0,Mcallister & Quinn,t,The Solar Energy Consortium,E1500,,The Solar Energy Consortium,f,f,f,494160
+F1B85971-F920-43BD-8AF2-8F956B676C4F,q4,FOURTH QUARTER REPORT,2009,p,f,391000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,497956
+C9FBEEC7-95EB-4F0D-ACD8-1F336AD2887C,m,MID-YEAR REPORT,2003,n,f,0,MARC Assoc,t,Duke Solar Energy,E1100,,Duke Solar Energy,f,f,f,505875
+4DAEC475-9B2A-44BD-B188-E27A216E8DB3,mtn,MID-YEAR TERMINATION (NO ACTIVITY),2001,n,f,0,Stella Group,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,f,f,519885
+19683F78-A101-4152-AE9E-219824BC8B3B,er,YEAR-END REPORT,2000,n,f,12500,Stella Group,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,528843
+50E01503-FF52-4D8C-9C42-F3A9DC927CFA,q2,SECOND QUARTER REPORT,2009,i,f,20000,Bluewater Strategies,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,553662
+1998/01/000/069/000069592-2,m,MID-YEAR REPORT,1998,n,f,150500,Stella Group,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,562138
+F7A6DBDE-BABD-4D51-AD40-817BDF1AF7FE,et,YEAR-END TERMINATION,2003,n,f,0,MARC Assoc,t,Duke Solar Energy,E1100,,Duke Solar Energy,f,f,f,572879
+F9A0CEFB-1658-470C-B41F-8AEA7E8A5649,q3,THIRD QUARTER REPORT,2010,i,f,20000,Bluewater Strategies,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,594649
+6F44ACCC-E80B-4AC9-98E2-E5323C9FA4EC,m,MID-YEAR REPORT,2007,i,f,140000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,598126
+D3497F54-AF84-4952-9DCA-C187577CC8E6,q1,FIRST QUARTER REPORT,2008,p,f,75000,Solar Energy Industries Assn,f,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,608485
+D43C10A4-66FC-406D-948B-921DA6EE4F9D,q2a,SECOND QUARTER AMENDMENT,2008,i,f,60000,Ernst & Young,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,612395
+FD12CDBC-B8AF-4282-B7C7-68E939CF23E7,q2,SECOND QUARTER REPORT,2010,i,f,44000,SC Partners,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,f,t,f,618176
+FE00746F-BB56-4893-8B78-4152706CBEF5,m,MID-YEAR REPORT,2002,n,f,40000,P Strategies Inc,t,Solar Energy Industries Assn,E1500,,Solar Energy Industries Assn,t,t,f,621809

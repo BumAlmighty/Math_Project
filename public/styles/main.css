@@ -8,6 +8,18 @@ body{
 	margin-bottom: 60px;
 }
 
+#main-image{
+	width: 200px;
+	height: 200px;
+	background: url('img/doubleleaf.svg');
+	color: white;
+	: #fff;
+
+
+	/*background-size: 50px 50px;*/
+
+}
+
 .ui .column .main{
 	margin-top: 30px;
 	padding: 50px;

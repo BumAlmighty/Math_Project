@@ -1,0 +1,2261 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "7sz5-aars",
+      "name" : "Energy Consumption By Mode Of Transportation ( Updated December 2008)",
+      "averageRating" : 0,
+      "createdAt" : 1243026138,
+      "downloadCount" : 202,
+      "newBackend" : false,
+      "numberOfComments" : 1,
+      "oid" : 283197,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1302998589,
+      "publicationGroup" : 208431,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1313892222,
+      "rowsUpdatedBy" : "vc35-nh3p",
+      "tableId" : 208431,
+      "totalTimesRated" : 0,
+      "viewCount" : 491,
+      "viewLastModified" : 1313892222,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 2192787,
+        "name" : "Table 4-6:  Energy Consumption by Mode of Transportation (Trillion Btu)",
+        "dataTypeName" : "text",
+        "fieldName" : "table_4_6_energy_consumption_by_mode_of_transportation_trillion_btu",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221792,
+        "width" : 922,
+        "cachedContents" : {
+          "non_null" : 73,
+          "smallest" : "1960-70: U.S. Department of Transportation, Federal Aviation Administration, FAA Statistical Handbook of Aviation - 1972 edition (Washington, DC:  1973), table 9.12.",
+          "null" : 22,
+          "largest" : "Water:",
+          "top" : [ {
+            "count" : 2,
+            "item" : "Electricity"
+          }, {
+            "count" : 2,
+            "item" : "Jet fuel"
+          }, {
+            "count" : 2,
+            "item" : "Distillate / diesel fuel"
+          }, {
+            "count" : 1,
+            "item" : "Single-unit 2-axle 6-tire or more truck"
+          }, {
+            "count" : 1,
+            "item" : "Combination truck"
+          }, {
+            "count" : 1,
+            "item" : "Automotive gasoline = 125,000 Btu/gallon"
+          }, {
+            "count" : 1,
+            "item" : "Compressed natural gas"
+          }, {
+            "count" : 1,
+            "item" : "Gasoline, diesel and other fuels "
+          }, {
+            "count" : 1,
+            "item" : "1960-70: U.S. Department of Transportation, Federal Aviation Administration, FAA Statistical Handbook of Aviation - 1972 edition (Washington, DC:  1973), table 9.12."
+          }, {
+            "count" : 1,
+            "item" : "Pipeline"
+          }, {
+            "count" : 1,
+            "item" : "SOURCES"
+          }, {
+            "count" : 1,
+            "item" : "Other 2-axle 4-tire vehicle"
+          }, {
+            "count" : 1,
+            "item" : "Electricity / motor fuel / compressed natural gas:"
+          }, {
+            "count" : 1,
+            "item" : "Rail, Class I (in freight service)"
+          }, {
+            "count" : 1,
+            "item" : "d  Gasoline and all other nondiesel fuels such as liquefied natural gas, methanol, and propane, except compressed natural gas."
+          }, {
+            "count" : 1,
+            "item" : "Natural gas = 1,031 Btu/ft3"
+          }, {
+            "count" : 1,
+            "item" : "Transitc"
+          }, {
+            "count" : 1,
+            "item" : "a  Domestic operations only."
+          }, {
+            "count" : 1,
+            "item" : "Residual fuel = 149,700 Btu/gallon"
+          }, {
+            "count" : 1,
+            "item" : "c  Prior to 1984, excludes commuter rail, automated guideway, ferryboat, demand responsive vehicles, and most rural and smaller systems."
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192788,
+        "name" : "Untitled",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221793,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "10",
+          "null" : 75,
+          "largest" : "N",
+          "top" : [ {
+            "count" : 8,
+            "item" : "N"
+          }, {
+            "count" : 2,
+            "item" : "29"
+          }, {
+            "count" : 1,
+            "item" : "358"
+          }, {
+            "count" : 1,
+            "item" : "592"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "480"
+          }, {
+            "count" : 1,
+            "item" : "24"
+          }, {
+            "count" : 1,
+            "item" : "5,146"
+          }, {
+            "count" : 1,
+            "item" : "1960"
+          }, {
+            "count" : 1,
+            "item" : "109"
+          }, {
+            "count" : 1,
+            "item" : "115"
+          }, {
+            "count" : 1,
+            "item" : "264"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192789,
+        "name" : "Untitled-2",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_2",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221794,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1,921",
+          "null" : 75,
+          "largest" : "N",
+          "top" : [ {
+            "count" : 4,
+            "item" : "N"
+          }, {
+            "count" : 1,
+            "item" : "6,215"
+          }, {
+            "count" : 1,
+            "item" : "525"
+          }, {
+            "count" : 1,
+            "item" : "463"
+          }, {
+            "count" : 1,
+            "item" : "923"
+          }, {
+            "count" : 1,
+            "item" : "498"
+          }, {
+            "count" : 1,
+            "item" : "35"
+          }, {
+            "count" : 1,
+            "item" : "16"
+          }, {
+            "count" : 1,
+            "item" : "516"
+          }, {
+            "count" : 1,
+            "item" : "90"
+          }, {
+            "count" : 1,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "121"
+          }, {
+            "count" : 1,
+            "item" : "1,921"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "1965"
+          }, {
+            "count" : 1,
+            "item" : "e"
+          }, {
+            "count" : 1,
+            "item" : "34"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192790,
+        "name" : "Untitled-3",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_3",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221795,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1,019",
+          "null" : 75,
+          "largest" : "N",
+          "top" : [ {
+            "count" : 3,
+            "item" : "N"
+          }, {
+            "count" : 2,
+            "item" : "114"
+          }, {
+            "count" : 2,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "28"
+          }, {
+            "count" : 1,
+            "item" : "1,061"
+          }, {
+            "count" : 1,
+            "item" : "38"
+          }, {
+            "count" : 1,
+            "item" : "1970"
+          }, {
+            "count" : 1,
+            "item" : "75"
+          }, {
+            "count" : 1,
+            "item" : "745"
+          }, {
+            "count" : 1,
+            "item" : "1,539"
+          }, {
+            "count" : 1,
+            "item" : "565"
+          }, {
+            "count" : 1,
+            "item" : "1,019"
+          }, {
+            "count" : 1,
+            "item" : "550"
+          }, {
+            "count" : 1,
+            "item" : "492"
+          }, {
+            "count" : 1,
+            "item" : "8,485"
+          }, {
+            "count" : 1,
+            "item" : "66"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192791,
+        "name" : "Untitled-4",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_4",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221796,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "null" : 75,
+          "largest" : "N",
+          "top" : [ {
+            "count" : 2,
+            "item" : "1"
+          }, {
+            "count" : 2,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "752"
+          }, {
+            "count" : 1,
+            "item" : "146"
+          }, {
+            "count" : 1,
+            "item" : "91"
+          }, {
+            "count" : 1,
+            "item" : "1,020"
+          }, {
+            "count" : 1,
+            "item" : "2,385"
+          }, {
+            "count" : 1,
+            "item" : "1,273"
+          }, {
+            "count" : 1,
+            "item" : "601"
+          }, {
+            "count" : 1,
+            "item" : "152"
+          }, {
+            "count" : 1,
+            "item" : "61"
+          }, {
+            "count" : 1,
+            "item" : "50"
+          }, {
+            "count" : 1,
+            "item" : "N"
+          }, {
+            "count" : 1,
+            "item" : "1975"
+          }, {
+            "count" : 1,
+            "item" : "9,282"
+          }, {
+            "count" : 1,
+            "item" : "608"
+          }, {
+            "count" : 1,
+            "item" : "51"
+          }, {
+            "count" : 1,
+            "item" : "507"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192792,
+        "name" : "Untitled-5",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_5",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221797,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "null" : 75,
+          "largest" : "N",
+          "top" : [ {
+            "count" : 2,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "2,975"
+          }, {
+            "count" : 1,
+            "item" : "960"
+          }, {
+            "count" : 1,
+            "item" : "654"
+          }, {
+            "count" : 1,
+            "item" : "63"
+          }, {
+            "count" : 1,
+            "item" : "8,773"
+          }, {
+            "count" : 1,
+            "item" : "1,150"
+          }, {
+            "count" : 1,
+            "item" : "60"
+          }, {
+            "count" : 1,
+            "item" : "1,808"
+          }, {
+            "count" : 1,
+            "item" : "103"
+          }, {
+            "count" : 1,
+            "item" : "1,340"
+          }, {
+            "count" : 1,
+            "item" : "1980"
+          }, {
+            "count" : 1,
+            "item" : "132"
+          }, {
+            "count" : 1,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "141"
+          }, {
+            "count" : 1,
+            "item" : "N"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "541"
+          }, {
+            "count" : 1,
+            "item" : "205"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192793,
+        "name" : "Untitled-6",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_6",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221798,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "null" : 75,
+          "largest" : "N",
+          "top" : [ {
+            "count" : 1,
+            "item" : "1,942"
+          }, {
+            "count" : 1,
+            "item" : "1985"
+          }, {
+            "count" : 1,
+            "item" : "687"
+          }, {
+            "count" : 1,
+            "item" : "3,420"
+          }, {
+            "count" : 1,
+            "item" : "14"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "431"
+          }, {
+            "count" : 1,
+            "item" : "116"
+          }, {
+            "count" : 1,
+            "item" : "8,963"
+          }, {
+            "count" : 1,
+            "item" : "1,026"
+          }, {
+            "count" : 1,
+            "item" : "236"
+          }, {
+            "count" : 1,
+            "item" : "132"
+          }, {
+            "count" : 1,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "N"
+          }, {
+            "count" : 1,
+            "item" : "519"
+          }, {
+            "count" : 1,
+            "item" : "84"
+          }, {
+            "count" : 1,
+            "item" : "1,366"
+          }, {
+            "count" : 1,
+            "item" : "51"
+          }, {
+            "count" : 1,
+            "item" : "93"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192794,
+        "name" : "Untitled-7",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_7",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221799,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "null" : 75,
+          "largest" : "N",
+          "top" : [ {
+            "count" : 2,
+            "item" : "90"
+          }, {
+            "count" : 1,
+            "item" : "1990"
+          }, {
+            "count" : 1,
+            "item" : "432"
+          }, {
+            "count" : 1,
+            "item" : "1,664"
+          }, {
+            "count" : 1,
+            "item" : "947"
+          }, {
+            "count" : 1,
+            "item" : "42"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "286"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "4,451"
+          }, {
+            "count" : 1,
+            "item" : "680"
+          }, {
+            "count" : 1,
+            "item" : "8,720"
+          }, {
+            "count" : 1,
+            "item" : "163"
+          }, {
+            "count" : 1,
+            "item" : "2,238"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "N"
+          }, {
+            "count" : 1,
+            "item" : "1,159"
+          }, {
+            "count" : 1,
+            "item" : "4"
+          }, {
+            "count" : 1,
+            "item" : "124"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192795,
+        "name" : "Untitled-8",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_8",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221800,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "null" : 75,
+          "largest" : "N",
+          "top" : [ {
+            "count" : 1,
+            "item" : "4,777"
+          }, {
+            "count" : 1,
+            "item" : "92"
+          }, {
+            "count" : 1,
+            "item" : "214"
+          }, {
+            "count" : 1,
+            "item" : "8,063"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "1,133"
+          }, {
+            "count" : 1,
+            "item" : "1,553"
+          }, {
+            "count" : 1,
+            "item" : "1,014"
+          }, {
+            "count" : 1,
+            "item" : "43"
+          }, {
+            "count" : 1,
+            "item" : "403"
+          }, {
+            "count" : 1,
+            "item" : "2,331"
+          }, {
+            "count" : 1,
+            "item" : "1991"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "N"
+          }, {
+            "count" : 1,
+            "item" : "284"
+          }, {
+            "count" : 1,
+            "item" : "4"
+          }, {
+            "count" : 1,
+            "item" : "620"
+          }, {
+            "count" : 1,
+            "item" : "78"
+          }, {
+            "count" : 1,
+            "item" : "120"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192796,
+        "name" : "Untitled-9",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_9",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221801,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "<1",
+          "null" : 75,
+          "largest" : "983",
+          "top" : [ {
+            "count" : 1,
+            "item" : "417"
+          }, {
+            "count" : 1,
+            "item" : "8,203"
+          }, {
+            "count" : 1,
+            "item" : "2,388"
+          }, {
+            "count" : 1,
+            "item" : "165"
+          }, {
+            "count" : 1,
+            "item" : "38"
+          }, {
+            "count" : 1,
+            "item" : "308"
+          }, {
+            "count" : 1,
+            "item" : "983"
+          }, {
+            "count" : 1,
+            "item" : "1992"
+          }, {
+            "count" : 1,
+            "item" : "1,588"
+          }, {
+            "count" : 1,
+            "item" : "122"
+          }, {
+            "count" : 1,
+            "item" : "95"
+          }, {
+            "count" : 1,
+            "item" : "<1"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "5,116"
+          }, {
+            "count" : 1,
+            "item" : "5"
+          }, {
+            "count" : 1,
+            "item" : "16"
+          }, {
+            "count" : 1,
+            "item" : "606"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "1,142"
+          }, {
+            "count" : 1,
+            "item" : "67"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192797,
+        "name" : "Untitled-10",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_10",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221802,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "<1",
+          "null" : 75,
+          "largest" : "94",
+          "top" : [ {
+            "count" : 1,
+            "item" : "5,356"
+          }, {
+            "count" : 1,
+            "item" : "299"
+          }, {
+            "count" : 1,
+            "item" : "129"
+          }, {
+            "count" : 1,
+            "item" : "1,614"
+          }, {
+            "count" : 1,
+            "item" : "791"
+          }, {
+            "count" : 1,
+            "item" : "8,406"
+          }, {
+            "count" : 1,
+            "item" : "109"
+          }, {
+            "count" : 1,
+            "item" : "644"
+          }, {
+            "count" : 1,
+            "item" : "<1"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "428"
+          }, {
+            "count" : 1,
+            "item" : "32"
+          }, {
+            "count" : 1,
+            "item" : "94"
+          }, {
+            "count" : 1,
+            "item" : "61"
+          }, {
+            "count" : 1,
+            "item" : "2,462"
+          }, {
+            "count" : 1,
+            "item" : "1993"
+          }, {
+            "count" : 1,
+            "item" : "1,177"
+          }, {
+            "count" : 1,
+            "item" : "12"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192798,
+        "name" : "Untitled-11",
+        "dataTypeName" : "number",
+        "fieldName" : "untitled_11",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1221803,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "sum" : "24278",
+          "null" : 75,
+          "average" : "1213.9",
+          "largest" : "8510",
+          "top" : [ {
+            "count" : 2,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "32"
+          }, {
+            "count" : 1,
+            "item" : "707"
+          }, {
+            "count" : 1,
+            "item" : "109"
+          }, {
+            "count" : 1,
+            "item" : "1253"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "94"
+          }, {
+            "count" : 1,
+            "item" : "462"
+          }, {
+            "count" : 1,
+            "item" : "134"
+          }, {
+            "count" : 1,
+            "item" : "1994"
+          }, {
+            "count" : 1,
+            "item" : "63"
+          }, {
+            "count" : 1,
+            "item" : "5514"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "806"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "304"
+          }, {
+            "count" : 1,
+            "item" : "2587"
+          }, {
+            "count" : 1,
+            "item" : "8510"
+          }, {
+            "count" : 1,
+            "item" : "1672"
+          } ]
+        },
+        "format" : {
+          "aggregate" : "sum"
+        }
+      }, {
+        "id" : 2192799,
+        "name" : "Untitled-12",
+        "dataTypeName" : "number",
+        "fieldName" : "untitled_12",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1221804,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "sum" : "24880",
+          "null" : 75,
+          "average" : "1244",
+          "largest" : "8534",
+          "top" : [ {
+            "count" : 2,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "881"
+          }, {
+            "count" : 1,
+            "item" : "1995"
+          }, {
+            "count" : 1,
+            "item" : "2743"
+          }, {
+            "count" : 1,
+            "item" : "8534"
+          }, {
+            "count" : 1,
+            "item" : "35"
+          }, {
+            "count" : 1,
+            "item" : "94"
+          }, {
+            "count" : 1,
+            "item" : "722"
+          }, {
+            "count" : 1,
+            "item" : "134"
+          }, {
+            "count" : 1,
+            "item" : "324"
+          }, {
+            "count" : 1,
+            "item" : "1711"
+          }, {
+            "count" : 1,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "1278"
+          }, {
+            "count" : 1,
+            "item" : "133"
+          }, {
+            "count" : 1,
+            "item" : "483"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "76"
+          }, {
+            "count" : 1,
+            "item" : "5701"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192800,
+        "name" : "Untitled-13",
+        "dataTypeName" : "number",
+        "fieldName" : "untitled_13",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1221805,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "sum" : "25422",
+          "null" : 75,
+          "average" : "1271.1",
+          "largest" : "8677",
+          "top" : [ {
+            "count" : 1,
+            "item" : "496"
+          }, {
+            "count" : 1,
+            "item" : "2"
+          }, {
+            "count" : 1,
+            "item" : "853"
+          }, {
+            "count" : 1,
+            "item" : "124"
+          }, {
+            "count" : 1,
+            "item" : "345"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "35"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "1996"
+          }, {
+            "count" : 1,
+            "item" : "1784"
+          }, {
+            "count" : 1,
+            "item" : "2801"
+          }, {
+            "count" : 1,
+            "item" : "82"
+          }, {
+            "count" : 1,
+            "item" : "1305"
+          }, {
+            "count" : 1,
+            "item" : "8677"
+          }, {
+            "count" : 1,
+            "item" : "734"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "5919"
+          }, {
+            "count" : 1,
+            "item" : "137"
+          }, {
+            "count" : 1,
+            "item" : "96"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192801,
+        "name" : "Untitled-14",
+        "dataTypeName" : "number",
+        "fieldName" : "untitled_14",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1221806,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "sum" : "25809",
+          "null" : 75,
+          "average" : "1290.45",
+          "largest" : "8762",
+          "top" : [ {
+            "count" : 1,
+            "item" : "496"
+          }, {
+            "count" : 1,
+            "item" : "357"
+          }, {
+            "count" : 1,
+            "item" : "775"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "35"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "1831"
+          }, {
+            "count" : 1,
+            "item" : "87"
+          }, {
+            "count" : 1,
+            "item" : "1997"
+          }, {
+            "count" : 1,
+            "item" : "8762"
+          }, {
+            "count" : 1,
+            "item" : "2816"
+          }, {
+            "count" : 1,
+            "item" : "6173"
+          }, {
+            "count" : 1,
+            "item" : "142"
+          }, {
+            "count" : 1,
+            "item" : "750"
+          }, {
+            "count" : 1,
+            "item" : "99"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "3"
+          }, {
+            "count" : 1,
+            "item" : "1328"
+          }, {
+            "count" : 1,
+            "item" : "123"
+          }, {
+            "count" : 1,
+            "item" : "7"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192802,
+        "name" : "Untitled-15",
+        "dataTypeName" : "number",
+        "fieldName" : "untitled_15",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1221807,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "sum" : "26436",
+          "null" : 75,
+          "average" : "1321.8",
+          "largest" : "8988",
+          "top" : [ {
+            "count" : 1,
+            "item" : "841"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "946"
+          }, {
+            "count" : 1,
+            "item" : "103"
+          }, {
+            "count" : 1,
+            "item" : "5"
+          }, {
+            "count" : 1,
+            "item" : "8988"
+          }, {
+            "count" : 1,
+            "item" : "3489"
+          }, {
+            "count" : 1,
+            "item" : "6308"
+          }, {
+            "count" : 1,
+            "item" : "497"
+          }, {
+            "count" : 1,
+            "item" : "120"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "1998"
+          }, {
+            "count" : 1,
+            "item" : "37"
+          }, {
+            "count" : 1,
+            "item" : "110"
+          }, {
+            "count" : 1,
+            "item" : "1800"
+          }, {
+            "count" : 1,
+            "item" : "360"
+          }, {
+            "count" : 1,
+            "item" : "655"
+          }, {
+            "count" : 1,
+            "item" : "7"
+          }, {
+            "count" : 1,
+            "item" : "144"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192803,
+        "name" : "Untitled-16",
+        "dataTypeName" : "number",
+        "fieldName" : "untitled_16",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1221808,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1",
+          "sum" : "27446",
+          "null" : 75,
+          "average" : "1372.3",
+          "largest" : "9187",
+          "top" : [ {
+            "count" : 2,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "131"
+          }, {
+            "count" : 1,
+            "item" : "1999"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "1944"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "1300"
+          }, {
+            "count" : 1,
+            "item" : "515"
+          }, {
+            "count" : 1,
+            "item" : "159"
+          }, {
+            "count" : 1,
+            "item" : "336"
+          }, {
+            "count" : 1,
+            "item" : "18"
+          }, {
+            "count" : 1,
+            "item" : "9187"
+          }, {
+            "count" : 1,
+            "item" : "106"
+          }, {
+            "count" : 1,
+            "item" : "42"
+          }, {
+            "count" : 1,
+            "item" : "665"
+          }, {
+            "count" : 1,
+            "item" : "3403"
+          }, {
+            "count" : 1,
+            "item" : "137"
+          }, {
+            "count" : 1,
+            "item" : "874"
+          }, {
+            "count" : 1,
+            "item" : "6607"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192804,
+        "name" : "Untitled-17",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_17",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221809,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "(R) 2,007",
+          "null" : 75,
+          "largest" : "960",
+          "top" : [ {
+            "count" : 1,
+            "item" : "513"
+          }, {
+            "count" : 1,
+            "item" : "131"
+          }, {
+            "count" : 1,
+            "item" : "960"
+          }, {
+            "count" : 1,
+            "item" : "154"
+          }, {
+            "count" : 1,
+            "item" : "9,159"
+          }, {
+            "count" : 1,
+            "item" : "109"
+          }, {
+            "count" : 1,
+            "item" : "2000"
+          }, {
+            "count" : 1,
+            "item" : "662"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "(R) 2,007"
+          }, {
+            "count" : 1,
+            "item" : "3,560"
+          }, {
+            "count" : 1,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "6,617"
+          }, {
+            "count" : 1,
+            "item" : "314"
+          }, {
+            "count" : 1,
+            "item" : "1,326"
+          }, {
+            "count" : 1,
+            "item" : "141"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "40"
+          }, {
+            "count" : 1,
+            "item" : "19"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192805,
+        "name" : "Untitled-18",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_18",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221810,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "(R) 1,872",
+          "null" : 75,
+          "largest" : "9,219",
+          "top" : [ {
+            "count" : 1,
+            "item" : "6,690"
+          }, {
+            "count" : 1,
+            "item" : "810"
+          }, {
+            "count" : 1,
+            "item" : "644"
+          }, {
+            "count" : 1,
+            "item" : "9,219"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "(R)124"
+          }, {
+            "count" : 1,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "2001"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "103"
+          }, {
+            "count" : 1,
+            "item" : "1,341"
+          }, {
+            "count" : 1,
+            "item" : "3,538"
+          }, {
+            "count" : 1,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "284"
+          }, {
+            "count" : 1,
+            "item" : "(R)34"
+          }, {
+            "count" : 1,
+            "item" : "19"
+          }, {
+            "count" : 1,
+            "item" : "124"
+          }, {
+            "count" : 1,
+            "item" : "(R) 1,872"
+          }, {
+            "count" : 1,
+            "item" : "142"
+          }, {
+            "count" : 1,
+            "item" : "515"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192806,
+        "name" : "Untitled-19",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_19",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221811,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "(R) 1,744",
+          "null" : 75,
+          "largest" : "U",
+          "top" : [ {
+            "count" : 2,
+            "item" : "U"
+          }, {
+            "count" : 1,
+            "item" : "726"
+          }, {
+            "count" : 1,
+            "item" : "288"
+          }, {
+            "count" : 1,
+            "item" : "688"
+          }, {
+            "count" : 1,
+            "item" : "6,903"
+          }, {
+            "count" : 1,
+            "item" : "517"
+          }, {
+            "count" : 1,
+            "item" : "(R) 1,744"
+          }, {
+            "count" : 1,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "(R)127"
+          }, {
+            "count" : 1,
+            "item" : "3,673"
+          }, {
+            "count" : 1,
+            "item" : "33"
+          }, {
+            "count" : 1,
+            "item" : "1,290"
+          }, {
+            "count" : 1,
+            "item" : "139"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "2002"
+          }, {
+            "count" : 1,
+            "item" : "135"
+          }, {
+            "count" : 1,
+            "item" : "19"
+          }, {
+            "count" : 1,
+            "item" : "100"
+          }, {
+            "count" : 1,
+            "item" : "9,458"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192807,
+        "name" : "Untitled-20",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_20",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221812,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "(R) 1,766",
+          "null" : 75,
+          "largest" : "U",
+          "top" : [ {
+            "count" : 2,
+            "item" : "U"
+          }, {
+            "count" : 1,
+            "item" : "610"
+          }, {
+            "count" : 1,
+            "item" : "1,110"
+          }, {
+            "count" : 1,
+            "item" : "3,303"
+          }, {
+            "count" : 1,
+            "item" : "(R)33"
+          }, {
+            "count" : 1,
+            "item" : "531"
+          }, {
+            "count" : 1,
+            "item" : "14"
+          }, {
+            "count" : 1,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "138"
+          }, {
+            "count" : 1,
+            "item" : "(R) 1,766"
+          }, {
+            "count" : 1,
+            "item" : "99"
+          }, {
+            "count" : 1,
+            "item" : "9,456"
+          }, {
+            "count" : 1,
+            "item" : "134"
+          }, {
+            "count" : 1,
+            "item" : "(R)126"
+          }, {
+            "count" : 1,
+            "item" : "580"
+          }, {
+            "count" : 1,
+            "item" : "19"
+          }, {
+            "count" : 1,
+            "item" : "307"
+          }, {
+            "count" : 1,
+            "item" : "2003"
+          }, {
+            "count" : 1,
+            "item" : "7,595"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192808,
+        "name" : "Untitled-21",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_21",
+        "position" : 22,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221813,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "(R)1,120",
+          "null" : 75,
+          "largest" : "U",
+          "top" : [ {
+            "count" : 2,
+            "item" : "U"
+          }, {
+            "count" : 1,
+            "item" : "(R)9,451"
+          }, {
+            "count" : 1,
+            "item" : "(R)1,120"
+          }, {
+            "count" : 1,
+            "item" : "(R)584"
+          }, {
+            "count" : 1,
+            "item" : "(R)33"
+          }, {
+            "count" : 1,
+            "item" : "(R)3,355"
+          }, {
+            "count" : 1,
+            "item" : "101"
+          }, {
+            "count" : 1,
+            "item" : "7"
+          }, {
+            "count" : 1,
+            "item" : "(R)189"
+          }, {
+            "count" : 1,
+            "item" : "20"
+          }, {
+            "count" : 1,
+            "item" : "(R)7,927"
+          }, {
+            "count" : 1,
+            "item" : "126"
+          }, {
+            "count" : 1,
+            "item" : "297"
+          }, {
+            "count" : 1,
+            "item" : "(R)166"
+          }, {
+            "count" : 1,
+            "item" : "16"
+          }, {
+            "count" : 1,
+            "item" : "2004"
+          }, {
+            "count" : 1,
+            "item" : "702"
+          }, {
+            "count" : 1,
+            "item" : "(R) 1,902"
+          }, {
+            "count" : 1,
+            "item" : "563"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192809,
+        "name" : "Untitled-22",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_22",
+        "position" : 23,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221814,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "(R)1,188",
+          "null" : 75,
+          "largest" : "U",
+          "top" : [ {
+            "count" : 2,
+            "item" : "U"
+          }, {
+            "count" : 1,
+            "item" : "(R)1,885"
+          }, {
+            "count" : 1,
+            "item" : "(R)3,840"
+          }, {
+            "count" : 1,
+            "item" : "101"
+          }, {
+            "count" : 1,
+            "item" : "7"
+          }, {
+            "count" : 1,
+            "item" : "(R)9,701"
+          }, {
+            "count" : 1,
+            "item" : "(R)7,359"
+          }, {
+            "count" : 1,
+            "item" : "20"
+          }, {
+            "count" : 1,
+            "item" : "278"
+          }, {
+            "count" : 1,
+            "item" : "(R)1,188"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "568"
+          }, {
+            "count" : 1,
+            "item" : "2005"
+          }, {
+            "count" : 1,
+            "item" : "775"
+          }, {
+            "count" : 1,
+            "item" : "(R)31"
+          }, {
+            "count" : 1,
+            "item" : "(R)602"
+          }, {
+            "count" : 1,
+            "item" : "158"
+          }, {
+            "count" : 1,
+            "item" : "(R)169"
+          }, {
+            "count" : 1,
+            "item" : "(R)155"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192810,
+        "name" : "Untitled-23",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_23",
+        "position" : 24,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221815,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "1,230",
+          "null" : 75,
+          "largest" : "U",
+          "top" : [ {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "U"
+          }, {
+            "count" : 1,
+            "item" : "2006"
+          }, {
+            "count" : 1,
+            "item" : "603"
+          }, {
+            "count" : 1,
+            "item" : "581"
+          }, {
+            "count" : 1,
+            "item" : "264"
+          }, {
+            "count" : 1,
+            "item" : "1,834"
+          }, {
+            "count" : 1,
+            "item" : "102"
+          }, {
+            "count" : 1,
+            "item" : "1,230"
+          }, {
+            "count" : 1,
+            "item" : "32"
+          }, {
+            "count" : 1,
+            "item" : "159"
+          }, {
+            "count" : 1,
+            "item" : "861"
+          }, {
+            "count" : 1,
+            "item" : "155"
+          }, {
+            "count" : 1,
+            "item" : "3,894"
+          }, {
+            "count" : 1,
+            "item" : "174"
+          }, {
+            "count" : 1,
+            "item" : "9,400"
+          }, {
+            "count" : 1,
+            "item" : "7,583"
+          }, {
+            "count" : 1,
+            "item" : "9"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192811,
+        "name" : "Untitled-24",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_24",
+        "position" : 25,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221816,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192812,
+        "name" : "Untitled-25",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_25",
+        "position" : 26,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221817,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192813,
+        "name" : "Untitled-26",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_26",
+        "position" : 27,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221818,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192814,
+        "name" : "Untitled-27",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_27",
+        "position" : 28,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221819,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192815,
+        "name" : "Untitled-28",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_28",
+        "position" : 29,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221820,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192816,
+        "name" : "Untitled-29",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_29",
+        "position" : 30,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221821,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192817,
+        "name" : "Untitled-30",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_30",
+        "position" : 31,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221822,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192818,
+        "name" : "Untitled-31",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_31",
+        "position" : 32,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221823,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192819,
+        "name" : "Untitled-32",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_32",
+        "position" : 33,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221824,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192820,
+        "name" : "Untitled-33",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_33",
+        "position" : 34,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221825,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192821,
+        "name" : "Untitled-34",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_34",
+        "position" : 35,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221826,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192822,
+        "name" : "Untitled-35",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_35",
+        "position" : 36,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221827,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192823,
+        "name" : "Untitled-36",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_36",
+        "position" : 37,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221828,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192824,
+        "name" : "Untitled-37",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_37",
+        "position" : 38,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221829,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192825,
+        "name" : "Untitled-38",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_38",
+        "position" : 39,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221830,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2192826,
+        "name" : "Untitled-39",
+        "dataTypeName" : "text",
+        "fieldName" : "untitled_39",
+        "position" : 40,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1221831,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 95
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "vc35-nh3p",
+        "displayName" : "Public Datasets",
+        "profileImageUrlLarge" : "/images/profile/3694/7070/recovery_gov_symbol_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/3694/7070/recovery_gov_symbol_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/3694/7070/recovery_gov_symbol_tiny.jpg",
+        "screenName" : "Public Datasets"
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "vc35-nh3p",
+        "displayName" : "Public Datasets",
+        "profileImageUrlLarge" : "/images/profile/3694/7070/recovery_gov_symbol_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/3694/7070/recovery_gov_symbol_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/3694/7070/recovery_gov_symbol_tiny.jpg",
+        "screenName" : "Public Datasets"
+      },
+      "tags" : [ "us", "government", "national", "transportation", "statistics", "safety", "energy", "environment" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "663DE7B8-EB1F-4E55-B6E1-8837037FD2F9", 1, 1243026139, "278324", 1243026139, "278324", null, null, "1960", "1965", "1970", "1975", "1980", "1985", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 2, "51CA3786-763B-4412-AD9B-3F93D8FFC7D4", 2, 1243026139, "278324", 1243026139, "278324", null, "Air", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 3, "ABF4E32F-85C8-42BC-AF2A-1FC12DFEF333", 3, 1243026139, "278324", 1243026139, "278324", null, "Certificated carriersa", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 4, "5019DAAE-7CEE-4AE3-B862-8954932A902B", 4, 1243026139, "278324", 1243026139, "278324", null, "Jet fuel", "264", "525", "1,061", "1,020", "1,150", "1,366", "1,664", "1,553", "1,588", "1,614", "1672", "1711", "1784", "1831", "1800", "1944", "(R) 2,007", "(R) 1,872", "(R) 1,744", "(R) 1,766", "(R) 1,902", "(R)1,885", "1,834", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 5, "BE8AD332-C813-468A-8479-C1DC8C728075", 5, 1243026139, "278324", 1243026139, "278324", null, "General aviationb", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 6, "4B8283E8-8FF9-4AF2-B6B9-DE198F81BA71", 6, 1243026139, "278324", 1243026139, "278324", null, "Aviation gasoline", "29", "35", "66", "50", "63", "51", "42", "43", "38", "32", "32", "35", "35", "35", "37", "42", "40", "(R)34", "33", "(R)33", "(R)33", "(R)31", "32", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 7, "8FE4F7FF-F5FA-4EC4-B9A9-3DF2C065EAFE", 7, 1243026139, "278324", 1243026139, "278324", null, "Jet fuel", "N", "8", "28", "61", "103", "93", "90", "78", "67", "61", "63", "76", "82", "87", "110", "131", "131", "(R)124", "(R)127", "(R)126", "(R)166", "(R)169", "174", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 8, "D556FBFB-BEC2-4AD9-BEEF-9C20592A414C", 8, 1243026139, "278324", 1243026139, "278324", null, "Highway", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 9, "4F53DFC6-71A6-4E7B-A1AD-7F5C0463D644", 9, 1243026139, "278324", 1243026139, "278324", null, "Gasoline, diesel and other fuels ", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 10, "CC507F37-1834-46C8-99F7-5B2E71643F1A", 10, 1243026139, "278324", 1243026139, "278324", null, "Passenger car and motorcycle", "5,146", "6,215", "8,485", "9,282", "8,773", "8,963", "8,720", "8,063", "8,203", "8,406", "8510", "8534", "8677", "8762", "8988", "9187", "9,159", "9,219", "9,458", "9,456", "(R)9,451", "(R)9,701", "9,400", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 11, "4FA84CDB-8B60-4318-AA89-C999B4AD6C6E", 11, 1243026139, "278324", 1243026139, "278324", null, "Other 2-axle 4-tire vehicle", "N", "e", "1,539", "2,385", "2,975", "3,420", "4,451", "4,777", "5,116", "5,356", "5514", "5701", "5919", "6173", "6308", "6607", "6,617", "6,690", "6,903", "7,595", "(R)7,927", "(R)7,359", "7,583", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 12, "EC397698-BD0E-454B-AD04-3B6F4DD1B693", 12, 1243026139, "278324", 1243026139, "278324", null, "Single-unit 2-axle 6-tire or more truck", "N", "1,921", "550", "752", "960", "1,026", "1,159", "1,133", "1,142", "1,177", "1253", "1278", "1305", "1328", "946", "1300", "1,326", "1,341", "1,290", "1,110", "(R)1,120", "(R)1,188", "1,230", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 13, "ACFBD721-AF31-4F48-A8B2-2CD0325ABEB2", 13, 1243026139, "278324", 1243026139, "278324", null, "Combination truck", "N", "923", "1,019", "1,273", "1,808", "1,942", "2,238", "2,331", "2,388", "2,462", "2587", "2743", "2801", "2816", "3489", "3403", "3,560", "3,538", "3,673", "3,303", "(R)3,355", "(R)3,840", "3,894", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 14, "797A7E25-562E-4C3B-9671-B696309EEB78", 14, 1243026139, "278324", 1243026139, "278324", null, "Bus", "115", "121", "114", "146", "141", "116", "124", "120", "122", "129", "134", "134", "137", "142", "144", "159", "154", "142", "139", "134", "(R)189", "(R)155", "159", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 15, "9FA278D0-3463-4B1C-9D7B-4A82B846060F", 15, 1243026139, "278324", 1243026139, "278324", null, "Transitc", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 16, "921FB8B5-1FA5-4F5B-A0F2-37D4AC437C42", 16, 1243026139, "278324", 1243026139, "278324", null, "Electricity", "10", "9", "9", "9", "8", "14", "17", "17", "16", "17", "17", "17", "17", "17", "17", "18", "19", "19", "19", "19", "20", "20", "20", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 17, "32481F4B-F0EF-42C1-A3EE-6B04E761F1A3", 17, 1243026139, "278324", 1243026139, "278324", null, "Motor fuel", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 18, "845AC524-DFD8-4A9A-8E8D-DFEBD0BA7B0F", 18, 1243026139, "278324", 1243026139, "278324", null, "Diesel ", "29", "34", "38", "51", "60", "84", "90", "92", "95", "94", "94", "94", "96", "99", "103", "106", "109", "103", "100", "99", "101", "101", "102", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 19, "2827EF36-6E1C-4BEC-919E-E8FC1924F254", 19, 1243026139, "278324", 1243026139, "278324", null, "Gasoline and other nondiesel fuelsd", "24", "16", "9", "1", "1", "6", "4", "4", "5", "6", "8", "8", "8", "7", "7", "6", "6", "6", "6", "6", "7", "7", "9", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 20, "66A252EC-0A37-4CAD-9740-A6DEFD6FFAC7", 20, 1243026139, "278324", 1243026139, "278324", null, "Compressed natural gas", "N", "N", "N", "N", "N", "N", "N", "N", "<1", "<1", "1", "1", "2", "3", "5", "6", "8", "9", "11", "14", "16", "17", "20", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 21, "DF289F85-2FFE-423E-BFEC-891A93F3C1A4", 21, 1243026139, "278324", 1243026139, "278324", null, "Rail, Class I (in freight service)", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 22, "59AAFF4F-A4E3-422F-A2B9-BB807912BD74", 22, 1243026139, "278324", 1243026139, "278324", null, "Distillate / diesel fuel", "480", "498", "492", "507", "541", "431", "432", "403", "417", "428", "462", "483", "496", "496", "497", "515", "513", "515", "517", "531", "563", "568", "581", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 23, "55F89CC8-C9B9-4ADE-812E-FF1CA5DC1176", 23, 1243026139, "278324", 1243026139, "278324", null, "Amtrak", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 24, "6C04873D-6020-494C-9DA6-2E1D1F0F5666", 24, 1243026139, "278324", 1243026139, "278324", null, "Electricity", "N", "N", "N", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "U", "U", "U", "U", "U", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 25, "C7944512-5B4D-45CA-B3F4-30DD37A8C842", 25, 1243026139, "278324", 1243026139, "278324", null, "Distillate / diesel fuel", "N", "N", "N", "9", "9", "9", "11", "11", "11", "12", "10", "9", "10", "10", "10", "10", "11", "10", "U", "U", "U", "U", "U", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 26, "0BCE48AE-1759-4111-AF60-0E44354FA5F6", 26, 1243026139, "278324", 1243026139, "278324", null, "Water ", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 27, "1A3CCF5C-3BAC-4A9D-8EAD-2B53A9C5770F", 27, 1243026139, "278324", 1243026139, "278324", null, "Residual fuel oil", "592", "463", "565", "608", "1,340", "687", "947", "1,014", "983", "791", "806", "881", "853", "750", "841", "874", "960", "810", "726", "580", "702", "775", "861", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 28, "5FF544CC-2675-4E09-89DF-3CBCE0217A51", 28, 1243026139, "278324", 1243026139, "278324", null, "Distillate / diesel fuel oil", "109", "90", "114", "152", "205", "236", "286", "284", "308", "299", "304", "324", "345", "357", "360", "336", "314", "284", "288", "307", "297", "278", "264", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 29, "E4F70C53-AEE1-44D4-A853-1BE1831F59A8", 29, 1243026139, "278324", 1243026139, "278324", null, "Gasoline ", "N", "N", "75", "91", "132", "132", "163", "214", "165", "109", "109", "133", "124", "123", "120", "137", "141", "124", "135", "138", "126", "158", "155", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 30, "C0D7D655-36F7-4FDE-A4CB-DDD2499EBFF4", 30, 1243026139, "278324", 1243026139, "278324", null, "Pipeline", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 31, "5B8B9B52-9EF7-42B1-A223-456555F76A24", 31, 1243026139, "278324", 1243026139, "278324", null, "Natural gas", "358", "516", "745", "601", "654", "519", "680", "620", "606", "644", "707", "722", "734", "775", "655", "665", "662", "644", "688", "610", "(R)584", "(R)602", "603", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 32, "DD0FDB6D-F5F5-478A-BBD7-7DAA424483A7", 32, 1243026139, "278324", 1243026139, "278324", null, "KEY: Btu = British thermal unit, N = data do not exist, R = revised, U = data are unavailable.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 33, "18EA31B3-2677-4850-8E00-A09FAC43A9CF", 33, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 34, "41A750C9-38A9-4EE2-8F41-DD0872C3E59C", 34, 1243026139, "278324", 1243026139, "278324", null, "a  Domestic operations only.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 35, "ECEE5DB8-BD84-4EEA-B956-00F93F3717D7", 35, 1243026139, "278324", 1243026139, "278324", null, "b  Includes fuel used in air taxi operations, but not commuter operations.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 36, "2730DF4A-0721-4097-B1DD-9722A91D9516", 36, 1243026139, "278324", 1243026139, "278324", null, "c  Prior to 1984, excludes commuter rail, automated guideway, ferryboat, demand responsive vehicles, and most rural and smaller systems.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 37, "CFCAEB0E-9C2E-4341-8C35-832DCB6AFEB1", 37, 1243026139, "278324", 1243026139, "278324", null, "d  Gasoline and all other nondiesel fuels such as liquefied natural gas, methanol, and propane, except compressed natural gas.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 38, "FC46C747-4FC3-463A-91AD-8C3F227C694B", 38, 1243026139, "278324", 1243026139, "278324", null, "e  Included in other single-unit 2-axle 6-tire or more truck category.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 39, "6D7F8D72-DDC9-4438-935E-67E5C9E5F0DC", 39, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 40, "A707BABA-3D78-4919-8E85-E1A3971627FA", 40, 1243026139, "278324", 1243026139, "278324", null, "NOTES", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 41, "45DDDCA4-8E23-4C86-B205-4DE1E800BBE3", 41, 1243026139, "278324", 1243026139, "278324", null, "The following conversion rates were used:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 42, "40C99829-5B18-45D8-9E3A-4A932F88BF70", 42, 1243026139, "278324", 1243026139, "278324", null, "Jet fuel = 135,000 Btu/gallon", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 43, "3362CE07-947D-4304-A84E-CB265C707456", 43, 1243026139, "278324", 1243026139, "278324", null, "Compressed natural gas = 138,700 Btu/gallon", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 44, "8D8CEAE2-1093-4ADD-B7FF-B3FC20E71088", 44, 1243026139, "278324", 1243026139, "278324", null, "Aviation gasoline = 120,200 Btu/gallon", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 45, "43E8C62A-C2DE-4003-AD94-B255BBB59FF0", 45, 1243026139, "278324", 1243026139, "278324", null, "Distillate fuel = 138,700 Btu/gallon", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 46, "B57EBD96-CF83-486F-BFA3-FFD61E67FBA1", 46, 1243026139, "278324", 1243026139, "278324", null, "Automotive gasoline = 125,000 Btu/gallon", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 47, "6FCD30C3-560A-4AD3-AD4A-0841124D2B83", 47, 1243026139, "278324", 1243026139, "278324", null, "Residual fuel = 149,700 Btu/gallon", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 48, "EC4AB7CA-AE5C-4D42-9E0E-799AEF8DC2EA", 48, 1243026139, "278324", 1243026139, "278324", null, "Diesel motor fuel = 138,700 Btu/gallon", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 49, "71DABC10-59B3-443E-A1AD-946349D7EC46", 49, 1243026139, "278324", 1243026139, "278324", null, "Natural gas = 1,031 Btu/ft3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 50, "850F9BDB-5E06-41D3-A93D-DE10F67C1F26", 50, 1243026139, "278324", 1243026139, "278324", null, "Electricity  1kWh = 3,412 Btu, negating electrical system losses. To include approximate electrical system losses, multiply this conversion factor by 3.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 51, "64B5ED5D-B0D2-4C60-9E81-9D375C99A871", 51, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 52, "0F72B773-F179-44B9-B542-4168EBB73370", 52, 1243026139, "278324", 1243026139, "278324", null, "SOURCES", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 53, "7A952EF9-B00F-423D-ADDD-46E1D1EDAD50", 53, 1243026139, "278324", 1243026139, "278324", null, "Air:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 54, "F9BBC2CA-4E48-4558-8E65-84A3A1896395", 54, 1243026139, "278324", 1243026139, "278324", null, "Certificated air carriers:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 55, "E2617756-241A-43BD-9674-8BAB2F7A9BF7", 55, 1243026139, "278324", 1243026139, "278324", null, "U.S. Department of Transportation, Research and Innovative Technology Administration, Bureau of Transportation Statistics, Office of Airline Information, Fuel Cost and Consumption, available at http://www.bts.gov/programs/airline_information as of August ", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 56, "A6E8D604-94FC-4E74-9DA7-8D3277E4602F", 56, 1243026139, "278324", 1243026139, "278324", null, "General aviation:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 57, "5681B1A9-17D1-41E6-B169-3E5328CF1903", 57, 1243026139, "278324", 1243026139, "278324", null, "1960-70: U.S. Department of Transportation, Federal Aviation Administration, FAA Statistical Handbook of Aviation - 1972 edition (Washington, DC:  1973), table 9.12.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 58, "83D2274E-9D4C-43B2-86EC-65910BEC0BBA", 58, 1243026139, "278324", 1243026139, "278324", null, "1975-93: Ibid., General Aviation and Air Taxi Activity Survey (Washington, DC:  Annual issues), table 5.1, and similar tables in earlier editions.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 59, "8EB81C1D-DAA4-4C35-94F3-1B969119B99F", 59, 1243026139, "278324", 1243026139, "278324", null, "1994-2006: Ibid., FAA Aerospace Forecasts Fiscal Years 2007-2018 (Washington, DC: Dec. 2005), table 34 and similar tables in earlier editions.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 60, "750B42D8-BFD8-4F56-B3A1-2C70C7D00D57", 60, 1243026139, "278324", 1243026139, "278324", null, "Highway:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 61, "469D82C2-F54F-47B2-9EC3-DE95A45B9E1D", 61, 1243026139, "278324", 1243026139, "278324", null, "1960-94: U.S. Department of Transportation, Federal Highway Administration, Highway Statistics, Summary to 1995, FHWA-PL-97-009 (Washington, DC:  July 1997), table VM-201A. (Revised data obtained from Internet site http://www.fhwa.dot.gov/ohim/ohimstat.ht", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 62, "5D11D262-57A6-4F15-BD2C-081A0198891E", 62, 1243026139, "278324", 1243026139, "278324", null, "1995-2006: Ibid., Highway Statistics (Washington, DC: Annual issues), table VM-1.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 63, "C272A614-B9FB-432C-BC8C-1D449FF180CC", 63, 1243026139, "278324", 1243026139, "278324", null, "Transit:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 64, "BF07DAAD-2676-4462-A439-09125FAFA154", 64, 1243026139, "278324", 1243026139, "278324", null, "Electricity / motor fuel / compressed natural gas:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 65, "E2DC6CD8-8D4B-4F0A-8F25-5CBA41A32632", 65, 1243026139, "278324", 1243026139, "278324", null, "American Public Transportation Association, Public Transportation Fact Book (Washington, DC: Annual issues), tables 27, 28, 29 and similar tables in earlier editions. ", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 66, "D909896F-955B-4BB9-8309-98F65CA94F87", 66, 1243026139, "278324", 1243026139, "278324", null, "Rail:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 67, "54EB3370-04DB-408C-A7ED-E94860825574", 67, 1243026139, "278324", 1243026139, "278324", null, "Association of American Railroads, Railroad Facts (Washington, DC: Annual issues).", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 68, "68361F80-C796-43E8-98B5-FD790DF47469", 68, 1243026139, "278324", 1243026139, "278324", null, "Amtrak:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 69, "6B69FBC0-1258-43B2-BEF2-FC4D93C417E2", 69, 1243026139, "278324", 1243026139, "278324", null, "1975-2001: Amtrak, Energy Management Department, personal communication.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 70, "746F43F7-C3AC-41B4-93D6-63B3E71B2293", 70, 1243026139, "278324", 1243026139, "278324", null, "Water:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 71, "4C68917E-DE41-4A34-A18B-68D40C25757C", 71, 1243026139, "278324", 1243026139, "278324", null, "Residual and distillate / diesel fuel oil:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 72, "A4A0D432-C5EB-47A0-8F6A-5FE7F68C8E69", 72, 1243026139, "278324", 1243026139, "278324", null, "1960-80: American Petroleum Institute, Basic Petroleum Data Book (Washington, DC: Annual issues), tables 10, 10a, 12, and 12a.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 73, "20BADB6F-6D46-4589-9883-DB632E4E0535", 73, 1243026139, "278324", 1243026139, "278324", null, "1985-2006: U.S. Department of Energy, Energy Information Administration, Fuel Oil and Kerosene Sales (Washington, DC: Annual issues), tables 2, 4, and similar tables in earlier editions.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 74, "A75EB228-8902-4CC4-A8AA-A2D998C9C02A", 74, 1243026139, "278324", 1243026139, "278324", null, "Gasoline:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 75, "4B55330D-FBED-4B77-BB74-BBE9BE224262", 75, 1243026139, "278324", 1243026139, "278324", null, "1970-2006: U.S. Department of Transportation, Federal Highway Administration, Highway Statistics (Washington, DC:  Annual issues), table MF-24 and similar tables in earlier editions.", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 76, "80330DF6-9323-4303-ACFD-D9FCA08FF6A0", 76, 1243026139, "278324", 1243026139, "278324", null, "Pipeline:", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 77, "936B0354-6171-4D90-96A4-C410C5023915", 77, 1243026139, "278324", 1243026139, "278324", null, "U.S. Department of Energy, Natural Gas Annual, DOE/EIA-0131(04) (Washington, DC: Annual issues), table 15 and similar tables in earlier editions. ", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 78, "80425A0B-977D-4334-95C6-46E10D53FA6B", 78, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 79, "81C2C023-DFE7-4679-9507-5C59E1B4C4EB", 79, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 80, "68E0A1C0-3448-4921-9641-CD060CC4E3DE", 80, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 81, "F812F066-2A2C-40E8-B2E4-163875B8E84E", 81, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 82, "7663082C-E8CF-4482-88D9-87C2F9860D2C", 82, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 83, "160E815B-75BB-4C52-A124-C9408EB3FDAF", 83, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 84, "B2BB543B-99F6-4A25-BAB2-517C3A80B4F8", 84, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 85, "C14AD79F-069F-4F14-89B4-3CA3A29D8B61", 85, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 86, "82B02F97-4BD2-4173-9C30-370B60FEC208", 86, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 87, "7E6AC137-D5C4-4827-9D1D-B821B6E17669", 87, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 88, "2FC04D03-A200-48B9-A8BD-D9BA4D6006E1", 88, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 89, "324FA2E4-4FA9-488B-A7AC-E8329019BA15", 89, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 90, "41D30ECF-6119-42E3-932E-923445642259", 90, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 91, "36510D6E-24A4-4C6D-9A1E-1A52FA612D05", 91, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 92, "70C68C45-8A65-46C0-90A6-3D10192E733A", 92, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 93, "036FBE4C-4DD6-42D0-93CB-1218DF028662", 93, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 94, "0BC464C5-0CDF-4395-8866-C41DC3ACF77B", 94, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 95, "8338339C-945F-4DC3-80AB-C8A39F52956A", 95, 1243026139, "278324", 1243026139, "278324", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+ ]
+}

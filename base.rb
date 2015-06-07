@@ -6,13 +6,18 @@ require	'json'
 
 get '/' do
 	# notes
-  @data = JSON.parse(HTTParty.get('https://data.nasa.gov/resource/gh4g-9sfh.json').body)
+  # @data = JSON.parse(HTTParty.get('https://data.nasa.gov/resource/gh4g-9sfh.json').body)
 
   erb :index
 end
 
-get '/zeo' do
-  'Hello zeo'
+get '/tables' do
+  erb :tables
+
+end
+get"/graphs" do 
+	erb :graphs
+
 end
 
 get '/hello/:name' do

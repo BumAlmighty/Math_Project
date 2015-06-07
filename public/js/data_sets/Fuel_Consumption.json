@@ -1,0 +1,1232 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "2z37-aet7",
+      "name" : "Energy Statistics 2009",
+      "averageRating" : 0,
+      "category" : "Government",
+      "createdAt" : 1245955384,
+      "description" : "Fuel consumption around the world. Source: BP Statistical Review of World Energy",
+      "downloadCount" : 340,
+      "indexUpdatedAt" : 1396521489,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 287465,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1302998589,
+      "publicationGroup" : 210641,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1313892339,
+      "rowsUpdatedBy" : "aide-nnnn",
+      "tableId" : 210641,
+      "totalTimesRated" : 0,
+      "viewCount" : 1143,
+      "viewLastModified" : 1313892339,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 2248445,
+        "name" : "Consumption by fuel, Million tonnes oil equivalent.",
+        "dataTypeName" : "text",
+        "description" : "Source: BP Statistical Review of World Energy",
+        "fieldName" : "consumption_by_fuel_million_tonnes_oil_equivalent",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244141,
+        "width" : 629,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "Algeria",
+          "null" : 0,
+          "largest" : "Venezuela",
+          "top" : [ {
+            "count" : 1,
+            "item" : "Bangladesh"
+          }, {
+            "count" : 1,
+            "item" : "Germany"
+          }, {
+            "count" : 1,
+            "item" : "Malaysia"
+          }, {
+            "count" : 1,
+            "item" : "Indonesia"
+          }, {
+            "count" : 1,
+            "item" : "France"
+          }, {
+            "count" : 1,
+            "item" : "Bulgaria"
+          }, {
+            "count" : 1,
+            "item" : "Other Asia Pacific"
+          }, {
+            "count" : 1,
+            "item" : "Total Europe & Eurasia"
+          }, {
+            "count" : 1,
+            "item" : "Total North America"
+          }, {
+            "count" : 1,
+            "item" : "Ecuador"
+          }, {
+            "count" : 1,
+            "item" : "Australia"
+          }, {
+            "count" : 1,
+            "item" : "South Africa"
+          }, {
+            "count" : 1,
+            "item" : "Other S. & Cent. America"
+          }, {
+            "count" : 1,
+            "item" : "Czech Republic"
+          }, {
+            "count" : 1,
+            "item" : "New Zealand"
+          }, {
+            "count" : 1,
+            "item" : "Belgium & Luxembourg"
+          }, {
+            "count" : 1,
+            "item" : "Iceland"
+          }, {
+            "count" : 1,
+            "item" : "Azerbaijan"
+          }, {
+            "count" : 1,
+            "item" : "Philippines"
+          }, {
+            "count" : 1,
+            "item" : "Republic of Ireland"
+          } ]
+        },
+        "format" : {
+          "formatting_option" : "Plain",
+          "datatype_name" : "Text"
+        }
+      }, {
+        "id" : 2248446,
+        "name" : "Oil-2",
+        "dataTypeName" : "number",
+        "fieldName" : "oil_2",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1244142,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "1",
+          "sum" : "11818.2",
+          "null" : 0,
+          "average" : "153.4831168831169",
+          "largest" : "3939.4",
+          "top" : [ {
+            "count" : 2,
+            "item" : "4.5"
+          }, {
+            "count" : 2,
+            "item" : "5.4"
+          }, {
+            "count" : 1,
+            "item" : "16"
+          }, {
+            "count" : 1,
+            "item" : "38.2"
+          }, {
+            "count" : 1,
+            "item" : "60.7"
+          }, {
+            "count" : 1,
+            "item" : "47.4"
+          }, {
+            "count" : 1,
+            "item" : "13.6"
+          }, {
+            "count" : 1,
+            "item" : "260"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "78.8"
+          }, {
+            "count" : 1,
+            "item" : "229.3"
+          }, {
+            "count" : 1,
+            "item" : "14.7"
+          }, {
+            "count" : 1,
+            "item" : "5.3"
+          }, {
+            "count" : 1,
+            "item" : "10.3"
+          }, {
+            "count" : 1,
+            "item" : "4"
+          }, {
+            "count" : 1,
+            "item" : "22"
+          }, {
+            "count" : 1,
+            "item" : "64.2"
+          }, {
+            "count" : 1,
+            "item" : "52.5"
+          }, {
+            "count" : 1,
+            "item" : "10.2"
+          }, {
+            "count" : 1,
+            "item" : "947.6"
+          } ]
+        },
+        "format" : {
+          "aggregate" : "none",
+          "datatype_name" : "Number"
+        }
+      }, {
+        "id" : 2248447,
+        "name" : "Natural Gas-2",
+        "dataTypeName" : "text",
+        "fieldName" : "natural_gas_2",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244143,
+        "width" : 226,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "-",
+          "null" : 0,
+          "largest" : "87.0",
+          "top" : [ {
+            "count" : 2,
+            "item" : "4.1"
+          }, {
+            "count" : 2,
+            "item" : "31.6"
+          }, {
+            "count" : 2,
+            "item" : "-"
+          }, {
+            "count" : 2,
+            "item" : "3.8"
+          }, {
+            "count" : 1,
+            "item" : "4.3"
+          }, {
+            "count" : 1,
+            "item" : "1024.5"
+          }, {
+            "count" : 1,
+            "item" : "5.1"
+          }, {
+            "count" : 1,
+            "item" : "38.3"
+          }, {
+            "count" : 1,
+            "item" : "17.6"
+          }, {
+            "count" : 1,
+            "item" : "739.3"
+          }, {
+            "count" : 1,
+            "item" : "36.0"
+          }, {
+            "count" : 1,
+            "item" : "25.7"
+          }, {
+            "count" : 1,
+            "item" : "44.4"
+          }, {
+            "count" : 1,
+            "item" : "273.0"
+          }, {
+            "count" : 1,
+            "item" : "3.5"
+          }, {
+            "count" : 1,
+            "item" : "0.9"
+          }, {
+            "count" : 1,
+            "item" : "30.6"
+          }, {
+            "count" : 1,
+            "item" : "8.0"
+          }, {
+            "count" : 1,
+            "item" : "32.8"
+          }, {
+            "count" : 1,
+            "item" : "7.6"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248448,
+        "name" : "Coal-2",
+        "dataTypeName" : "text",
+        "fieldName" : "coal_2",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244144,
+        "width" : 142,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "-",
+          "null" : 0,
+          "largest" : "97.7",
+          "top" : [ {
+            "count" : 7,
+            "item" : "-"
+          }, {
+            "count" : 4,
+            "item" : "0.1"
+          }, {
+            "count" : 3,
+            "item" : "0.4"
+          }, {
+            "count" : 2,
+            "item" : "3.3"
+          }, {
+            "count" : 2,
+            "item" : "2.2"
+          }, {
+            "count" : 1,
+            "item" : "13.4"
+          }, {
+            "count" : 1,
+            "item" : "6.2"
+          }, {
+            "count" : 1,
+            "item" : "1.3"
+          }, {
+            "count" : 1,
+            "item" : "5.1"
+          }, {
+            "count" : 1,
+            "item" : "1.0"
+          }, {
+            "count" : 1,
+            "item" : "7.5"
+          }, {
+            "count" : 1,
+            "item" : "38.2"
+          }, {
+            "count" : 1,
+            "item" : "9.1"
+          }, {
+            "count" : 1,
+            "item" : "97.7"
+          }, {
+            "count" : 1,
+            "item" : "12.3"
+          }, {
+            "count" : 1,
+            "item" : "8.1"
+          }, {
+            "count" : 1,
+            "item" : "9.3"
+          }, {
+            "count" : 1,
+            "item" : "7.4"
+          }, {
+            "count" : 1,
+            "item" : "41.8"
+          }, {
+            "count" : 1,
+            "item" : "5.5"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248449,
+        "name" : "Nuclear Energy-2",
+        "dataTypeName" : "text",
+        "fieldName" : "nuclear_energy_2",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244145,
+        "width" : 262,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "-",
+          "null" : 0,
+          "largest" : "99.7",
+          "top" : [ {
+            "count" : 41,
+            "item" : "-"
+          }, {
+            "count" : 2,
+            "item" : "3.3"
+          }, {
+            "count" : 2,
+            "item" : "3.0"
+          }, {
+            "count" : 1,
+            "item" : "12.5"
+          }, {
+            "count" : 1,
+            "item" : "1.0"
+          }, {
+            "count" : 1,
+            "item" : "14.3"
+          }, {
+            "count" : 1,
+            "item" : "21.0"
+          }, {
+            "count" : 1,
+            "item" : "4.0"
+          }, {
+            "count" : 1,
+            "item" : "3.5"
+          }, {
+            "count" : 1,
+            "item" : "2.4"
+          }, {
+            "count" : 1,
+            "item" : "123.3"
+          }, {
+            "count" : 1,
+            "item" : "10.9"
+          }, {
+            "count" : 1,
+            "item" : "63.1"
+          }, {
+            "count" : 1,
+            "item" : "5.6"
+          }, {
+            "count" : 1,
+            "item" : "622.5"
+          }, {
+            "count" : 1,
+            "item" : "20.9"
+          }, {
+            "count" : 1,
+            "item" : "4.4"
+          }, {
+            "count" : 1,
+            "item" : "9.2"
+          }, {
+            "count" : 1,
+            "item" : "1.9"
+          }, {
+            "count" : 1,
+            "item" : "2.2"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248450,
+        "name" : "Hydro electric-2",
+        "dataTypeName" : "text",
+        "fieldName" : "hydro_electric_2",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244146,
+        "width" : 262,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "-",
+          "null" : 0,
+          "largest" : "9.5",
+          "top" : [ {
+            "count" : 7,
+            "item" : "-"
+          }, {
+            "count" : 4,
+            "item" : "^"
+          }, {
+            "count" : 3,
+            "item" : "0.7"
+          }, {
+            "count" : 2,
+            "item" : "1.0"
+          }, {
+            "count" : 2,
+            "item" : "1.2"
+          }, {
+            "count" : 2,
+            "item" : "5.2"
+          }, {
+            "count" : 2,
+            "item" : "0.2"
+          }, {
+            "count" : 2,
+            "item" : "1.8"
+          }, {
+            "count" : 2,
+            "item" : "2.3"
+          }, {
+            "count" : 2,
+            "item" : "1.9"
+          }, {
+            "count" : 2,
+            "item" : "0.1"
+          }, {
+            "count" : 2,
+            "item" : "0.6"
+          }, {
+            "count" : 1,
+            "item" : "18.0"
+          }, {
+            "count" : 1,
+            "item" : "3.2"
+          }, {
+            "count" : 1,
+            "item" : "13.3"
+          }, {
+            "count" : 1,
+            "item" : "7.5"
+          }, {
+            "count" : 1,
+            "item" : "179.6"
+          }, {
+            "count" : 1,
+            "item" : "3.5"
+          }, {
+            "count" : 1,
+            "item" : "30.6"
+          }, {
+            "count" : 1,
+            "item" : "8.0"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248451,
+        "name" : "Total 2007",
+        "dataTypeName" : "number",
+        "fieldName" : "total_2007",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1244147,
+        "width" : 190,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "3",
+          "sum" : "33313.2",
+          "null" : 0,
+          "average" : "432.6389610389610",
+          "largest" : "11104.4",
+          "top" : [ {
+            "count" : 2,
+            "item" : "24.5"
+          }, {
+            "count" : 1,
+            "item" : "20"
+          }, {
+            "count" : 1,
+            "item" : "123.2"
+          }, {
+            "count" : 1,
+            "item" : "117.9"
+          }, {
+            "count" : 1,
+            "item" : "114.9"
+          }, {
+            "count" : 1,
+            "item" : "24.9"
+          }, {
+            "count" : 1,
+            "item" : "64.8"
+          }, {
+            "count" : 1,
+            "item" : "37.5"
+          }, {
+            "count" : 1,
+            "item" : "515.8"
+          }, {
+            "count" : 1,
+            "item" : "77.8"
+          }, {
+            "count" : 1,
+            "item" : "341"
+          }, {
+            "count" : 1,
+            "item" : "309.3"
+          }, {
+            "count" : 1,
+            "item" : "28.2"
+          }, {
+            "count" : 1,
+            "item" : "89.3"
+          }, {
+            "count" : 1,
+            "item" : "134.7"
+          }, {
+            "count" : 1,
+            "item" : "11.4"
+          }, {
+            "count" : 1,
+            "item" : "25.5"
+          }, {
+            "count" : 1,
+            "item" : "55.1"
+          }, {
+            "count" : 1,
+            "item" : "23.9"
+          }, {
+            "count" : 1,
+            "item" : "679.7"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248452,
+        "name" : "Oil",
+        "dataTypeName" : "number",
+        "fieldName" : "oil",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1244148,
+        "width" : 106,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "0.9",
+          "sum" : "11783.4",
+          "null" : 0,
+          "average" : "153.0311688311688",
+          "largest" : "3927.9",
+          "top" : [ {
+            "count" : 2,
+            "item" : "7.7"
+          }, {
+            "count" : 2,
+            "item" : "14.5"
+          }, {
+            "count" : 2,
+            "item" : "13.4"
+          }, {
+            "count" : 2,
+            "item" : "5.5"
+          }, {
+            "count" : 2,
+            "item" : "4.6"
+          }, {
+            "count" : 1,
+            "item" : "135.2"
+          }, {
+            "count" : 1,
+            "item" : "270.3"
+          }, {
+            "count" : 1,
+            "item" : "24.9"
+          }, {
+            "count" : 1,
+            "item" : "104.2"
+          }, {
+            "count" : 1,
+            "item" : "10.9"
+          }, {
+            "count" : 1,
+            "item" : "77.1"
+          }, {
+            "count" : 1,
+            "item" : "80.9"
+          }, {
+            "count" : 1,
+            "item" : "19.3"
+          }, {
+            "count" : 1,
+            "item" : "7.9"
+          }, {
+            "count" : 1,
+            "item" : "32.6"
+          }, {
+            "count" : 1,
+            "item" : "13.7"
+          }, {
+            "count" : 1,
+            "item" : "21.4"
+          }, {
+            "count" : 1,
+            "item" : "92.2"
+          }, {
+            "count" : 1,
+            "item" : "90"
+          }, {
+            "count" : 1,
+            "item" : "884.5"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248453,
+        "name" : "Natural Gas",
+        "dataTypeName" : "text",
+        "fieldName" : "natural_gas",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244149,
+        "width" : 202,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "-",
+          "null" : 0,
+          "largest" : "90.0",
+          "top" : [ {
+            "count" : 2,
+            "item" : "11.5"
+          }, {
+            "count" : 2,
+            "item" : "4.1"
+          }, {
+            "count" : 2,
+            "item" : "3.1"
+          }, {
+            "count" : 2,
+            "item" : "2.9"
+          }, {
+            "count" : 2,
+            "item" : "2.3"
+          }, {
+            "count" : 2,
+            "item" : "-"
+          }, {
+            "count" : 1,
+            "item" : "15.4"
+          }, {
+            "count" : 1,
+            "item" : "37.2"
+          }, {
+            "count" : 1,
+            "item" : "436.8"
+          }, {
+            "count" : 1,
+            "item" : "12.5"
+          }, {
+            "count" : 1,
+            "item" : "52.3"
+          }, {
+            "count" : 1,
+            "item" : "84.5"
+          }, {
+            "count" : 1,
+            "item" : "8.3"
+          }, {
+            "count" : 1,
+            "item" : "17.1"
+          }, {
+            "count" : 1,
+            "item" : "4.0"
+          }, {
+            "count" : 1,
+            "item" : "751.2"
+          }, {
+            "count" : 1,
+            "item" : "0.9"
+          }, {
+            "count" : 1,
+            "item" : "3.4"
+          }, {
+            "count" : 1,
+            "item" : "90.0"
+          }, {
+            "count" : 1,
+            "item" : "15.3"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248454,
+        "name" : "Coal",
+        "dataTypeName" : "text",
+        "fieldName" : "coal",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244150,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "-",
+          "null" : 0,
+          "largest" : "9.4",
+          "top" : [ {
+            "count" : 7,
+            "item" : "-"
+          }, {
+            "count" : 3,
+            "item" : "^"
+          }, {
+            "count" : 2,
+            "item" : "3.2"
+          }, {
+            "count" : 2,
+            "item" : "1.4"
+          }, {
+            "count" : 2,
+            "item" : "14.6"
+          }, {
+            "count" : 2,
+            "item" : "0.1"
+          }, {
+            "count" : 2,
+            "item" : "0.4"
+          }, {
+            "count" : 2,
+            "item" : "0.5"
+          }, {
+            "count" : 1,
+            "item" : "15.4"
+          }, {
+            "count" : 1,
+            "item" : "6.2"
+          }, {
+            "count" : 1,
+            "item" : "8.6"
+          }, {
+            "count" : 1,
+            "item" : "1.3"
+          }, {
+            "count" : 1,
+            "item" : "2.1"
+          }, {
+            "count" : 1,
+            "item" : "1.0"
+          }, {
+            "count" : 1,
+            "item" : "30.4"
+          }, {
+            "count" : 1,
+            "item" : "40.2"
+          }, {
+            "count" : 1,
+            "item" : "7.5"
+          }, {
+            "count" : 1,
+            "item" : "33.0"
+          }, {
+            "count" : 1,
+            "item" : "9.4"
+          }, {
+            "count" : 1,
+            "item" : "39.3"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248455,
+        "name" : "Nuclear Energy",
+        "dataTypeName" : "text",
+        "fieldName" : "nuclear_energy",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244151,
+        "width" : 238,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "-",
+          "null" : 0,
+          "largest" : "99.6",
+          "top" : [ {
+            "count" : 41,
+            "item" : "-"
+          }, {
+            "count" : 2,
+            "item" : "3.0"
+          }, {
+            "count" : 1,
+            "item" : "5.4"
+          }, {
+            "count" : 1,
+            "item" : "36.9"
+          }, {
+            "count" : 1,
+            "item" : "119.8"
+          }, {
+            "count" : 1,
+            "item" : "6.2"
+          }, {
+            "count" : 1,
+            "item" : "33.7"
+          }, {
+            "count" : 1,
+            "item" : "13.3"
+          }, {
+            "count" : 1,
+            "item" : "276.7"
+          }, {
+            "count" : 1,
+            "item" : "3.5"
+          }, {
+            "count" : 1,
+            "item" : "0.9"
+          }, {
+            "count" : 1,
+            "item" : "619.7"
+          }, {
+            "count" : 1,
+            "item" : "10.4"
+          }, {
+            "count" : 1,
+            "item" : "3.4"
+          }, {
+            "count" : 1,
+            "item" : "57.0"
+          }, {
+            "count" : 1,
+            "item" : "2.3"
+          }, {
+            "count" : 1,
+            "item" : "6.0"
+          }, {
+            "count" : 1,
+            "item" : "192.0"
+          }, {
+            "count" : 1,
+            "item" : "9.2"
+          }, {
+            "count" : 1,
+            "item" : "2.2"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248456,
+        "name" : "Hydro electric",
+        "dataTypeName" : "text",
+        "fieldName" : "hydro_electric",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1244152,
+        "width" : 238,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "-",
+          "null" : 0,
+          "largest" : "9.8",
+          "top" : [ {
+            "count" : 7,
+            "item" : "-"
+          }, {
+            "count" : 4,
+            "item" : "^"
+          }, {
+            "count" : 3,
+            "item" : "0.2"
+          }, {
+            "count" : 3,
+            "item" : "3.9"
+          }, {
+            "count" : 2,
+            "item" : "0.9"
+          }, {
+            "count" : 2,
+            "item" : "2.6"
+          }, {
+            "count" : 2,
+            "item" : "0.8"
+          }, {
+            "count" : 2,
+            "item" : "0.1"
+          }, {
+            "count" : 2,
+            "item" : "1.7"
+          }, {
+            "count" : 2,
+            "item" : "1.6"
+          }, {
+            "count" : 2,
+            "item" : "0.5"
+          }, {
+            "count" : 2,
+            "item" : "2.8"
+          }, {
+            "count" : 1,
+            "item" : "5.4"
+          }, {
+            "count" : 1,
+            "item" : "8.6"
+          }, {
+            "count" : 1,
+            "item" : "18.1"
+          }, {
+            "count" : 1,
+            "item" : "82.3"
+          }, {
+            "count" : 1,
+            "item" : "1.0"
+          }, {
+            "count" : 1,
+            "item" : "14.3"
+          }, {
+            "count" : 1,
+            "item" : "7.5"
+          }, {
+            "count" : 1,
+            "item" : "1.1"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 2248457,
+        "name" : "Total 2008",
+        "dataTypeName" : "number",
+        "fieldName" : "total_2008",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1244153,
+        "width" : 190,
+        "cachedContents" : {
+          "non_null" : 77,
+          "smallest" : "3.9",
+          "sum" : "33885.1",
+          "null" : 0,
+          "average" : "440.0662337662338",
+          "largest" : "11294.9",
+          "top" : [ {
+            "count" : 2,
+            "item" : "26.8"
+          }, {
+            "count" : 2,
+            "item" : "12.3"
+          }, {
+            "count" : 2,
+            "item" : "22.6"
+          }, {
+            "count" : 1,
+            "item" : "64.7"
+          }, {
+            "count" : 1,
+            "item" : "684.6"
+          }, {
+            "count" : 1,
+            "item" : "257.9"
+          }, {
+            "count" : 1,
+            "item" : "124.4"
+          }, {
+            "count" : 1,
+            "item" : "23.8"
+          }, {
+            "count" : 1,
+            "item" : "329.8"
+          }, {
+            "count" : 1,
+            "item" : "81.4"
+          }, {
+            "count" : 1,
+            "item" : "56"
+          }, {
+            "count" : 1,
+            "item" : "118.3"
+          }, {
+            "count" : 1,
+            "item" : "17.2"
+          }, {
+            "count" : 1,
+            "item" : "79.7"
+          }, {
+            "count" : 1,
+            "item" : "192.1"
+          }, {
+            "count" : 1,
+            "item" : "25"
+          }, {
+            "count" : 1,
+            "item" : "433.3"
+          }, {
+            "count" : 1,
+            "item" : "2299"
+          }, {
+            "count" : 1,
+            "item" : "170.4"
+          }, {
+            "count" : 1,
+            "item" : "143.9"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "aide-nnnn",
+        "displayName" : "Aiden",
+        "profileImageUrlLarge" : "/images/profile/6542/3523/5650756906_37e969fa14_b_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/6542/3523/5650756906_37e969fa14_b_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/6542/3523/5650756906_37e969fa14_b_tiny.jpg",
+        "screenName" : "Aiden"
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "aide-nnnn",
+        "displayName" : "Aiden",
+        "profileImageUrlLarge" : "/images/profile/6542/3523/5650756906_37e969fa14_b_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/6542/3523/5650756906_37e969fa14_b_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/6542/3523/5650756906_37e969fa14_b_tiny.jpg",
+        "screenName" : "Aiden"
+      },
+      "tags" : [ "fuel", "consumption", "bp", "world" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "C1EA2DEC-B694-48BD-B6C3-99A6256CD7AF", 1, 1245955385, "296892", 1245955385, "296892", null, "US", "942.3", "595.4", "573.2", "192.1", "56.6", "2359.6", "884.5", "600.7", "565.0", "192.0", "56.7", "2299" ]
+, [ 2, "D299F4C5-BF1A-4556-A7FF-D79FE1691B0C", 2, 1245955385, "296892", 1245955385, "296892", null, "Canada", "102.8", "87.0", "32.3", "21.0", "82.9", "326.1", "102", "90.0", "33.0", "21.1", "83.6", "329.8" ]
+, [ 3, "7EAE180B-0742-43A4-BBB3-F92F8B42CDE1", 3, 1245955385, "296892", 1245955385, "296892", null, "Mexico", "89.4", "56.8", "9.1", "2.4", "6.1", "163.7", "90", "60.5", "9.0", "2.3", "8.6", "170.4" ]
+, [ 4, "0F240F4E-3EC9-4A7E-A712-9813FA9904D3", 4, 1245955385, "296892", 1245955385, "296892", null, "Total North America", "1134.5", "739.3", "614.6", "215.4", "145.6", "2849.4", "1076.6", "751.2", "606.9", "215.4", "148.9", "2799.1" ]
+, [ 5, "B57794FA-4484-40E2-9AFC-9F9264304EE8", 5, 1245955385, "296892", 1245955385, "296892", null, "Argentina", "23.2", "39.5", "0.4", "1.6", "8.5", "73.2", "24.2", "40.0", "0.4", "1.6", "8.4", "74.7" ]
+, [ 6, "C3697B56-310F-4CA9-BBFA-C5F153867149", 6, 1245955385, "296892", 1245955385, "296892", null, "Brazil", "99.8", "19.8", "13.4", "2.8", "84.6", "220.4", "105.3", "22.7", "14.6", "3.1", "82.3", "228.1" ]
+, [ 7, "71085CB6-D392-413C-91E5-7875C6354BA2", 7, 1245955385, "296892", 1245955385, "296892", null, "Chile", "16.1", "4.1", "3.3", "-", "5.2", "28.8", "16.8", "2.3", "3.2", "-", "5.4", "27.8" ]
+, [ 8, "AC660D41-EDA6-4A81-AEDE-62CB149ADD59", 8, 1245955385, "296892", 1245955385, "296892", null, "Colombia", "10.7", "6.7", "2.7", "-", "9.5", "29.5", "10.7", "7.3", "2.3", "-", "9.8", "30.2" ]
+, [ 9, "0A235831-B4B4-4811-B1FD-BA575C904613", 9, 1245955385, "296892", 1245955385, "296892", null, "Ecuador", "8.9", "0.5", "-", "-", "2.0", "11.4", "9.3", "0.5", "-", "-", "2.6", "12.3" ]
+, [ 10, "B067D3A9-1ACB-4CE0-843D-C323C4913302", 10, 1245955385, "296892", 1245955385, "296892", null, "Peru", "7.1", "2.4", "0.5", "-", "4.4", "14.4", "7.9", "3.1", "0.5", "-", "4.5", "15.9" ]
+, [ 11, "0D514218-F7E3-4B2A-857F-F233B2932671", 11, 1245955385, "296892", 1245955385, "296892", null, "Venezuela", "30", "29.0", "0.1", "-", "18.8", "77.8", "32.5", "29.1", "^", "-", "19.6", "81.4" ]
+, [ 12, "3C695B9E-5E1B-4397-BFFA-AE2613397083", 12, 1245955385, "296892", 1245955385, "296892", null, "Other S. & Cent. America", "64.2", "22.1", "2.2", "-", "19.5", "108", "63.6", "23.6", "2.2", "-", "19.9", "109.3" ]
+, [ 13, "AA3385EF-4788-4D3D-BD88-7BF13EEC7D3A", 13, 1245955385, "296892", 1245955385, "296892", null, "Total S. & Cent. America", "260", "124.1", "22.5", "4.4", "152.6", "563.5", "270.3", "128.7", "23.3", "4.8", "152.5", "579.6" ]
+, [ 14, "0A5D19B0-EBA7-47BF-97B0-DF35AEA0B2FC", 14, 1245955385, "296892", 1245955385, "296892", null, "Austria", "13.4", "8.0", "3.1", "-", "7.5", "31.9", "13.4", "8.5", "3.1", "-", "7.9", "33" ]
+, [ 15, "FD3F9DBB-E3C1-4DC2-8E24-3A82A257A954", 15, 1245955385, "296892", 1245955385, "296892", null, "Azerbaijan", "4.5", "7.2", "^", "-", "0.5", "12.2", "3.3", "8.4", "^", "-", "0.5", "12.3" ]
+, [ 16, "6F04E0A5-8893-4BEA-AA47-381B0FFD310C", 16, 1245955385, "296892", 1245955385, "296892", null, "Belarus", "7.6", "16.9", "0.1", "-", "^", "24.6", "7.7", "17.3", "^", "-", "^", "25.1" ]
+, [ 17, "02D36D3B-11D1-4F85-BD4D-528CE86C85C4", 17, 1245955385, "296892", 1245955385, "296892", null, "Belgium & Luxembourg", "41", "15.2", "5.5", "10.9", "0.1", "72.7", "41.3", "15.3", "4.6", "10.4", "0.1", "71.7" ]
+, [ 18, "931E5779-1FB6-4597-A5C0-D57786892B8D", 18, 1245955385, "296892", 1245955385, "296892", null, "Bulgaria", "5.3", "2.9", "7.8", "3.3", "0.7", "20", "5.4", "2.9", "7.5", "3.6", "0.8", "20.1" ]
+, [ 19, "F9A00025-34D7-40A4-88DA-9941014184EC", 19, 1245955385, "296892", 1245955385, "296892", null, "Czech Republic", "9.7", "7.6", "20.0", "5.9", "0.6", "43.8", "9.9", "7.8", "19.1", "6.0", "0.5", "43.3" ]
+, [ 20, "CACC9615-B3E8-42DC-BE31-F5FC31E43D64", 20, 1245955385, "296892", 1245955385, "296892", null, "Denmark", "9.3", "4.1", "4.7", "-", "^", "18.1", "8.9", "4.1", "4.1", "-", "^", "17.2" ]
+, [ 21, "E5E409EF-53B1-4A88-9F1A-C4DFB5FB8D4C", 21, 1245955385, "296892", 1245955385, "296892", null, "Finland", "10.6", "3.5", "4.6", "5.6", "3.2", "27.5", "10.5", "3.6", "3.4", "5.4", "3.9", "26.8" ]
+, [ 22, "BE619639-D02C-46E7-8CE7-92A9004CDB52", 22, 1245955385, "296892", 1245955385, "296892", null, "France", "91.3", "38.3", "12.3", "99.7", "13.3", "254.8", "92.2", "39.8", "11.9", "99.6", "14.3", "257.9" ]
+, [ 23, "8F7A816D-8F9B-4DCA-8FC9-130C18E11B7A", 23, 1245955385, "296892", 1245955385, "296892", null, "Germany", "112.5", "74.6", "85.7", "31.8", "4.7", "309.3", "118.3", "73.8", "80.9", "33.7", "4.4", "311.1" ]
+, [ 24, "7B948013-A2BC-4464-B10F-D9C70521C38F", 24, 1245955385, "296892", 1245955385, "296892", null, "Greece", "21.7", "3.6", "8.5", "-", "0.8", "34.6", "21.4", "3.8", "8.6", "-", "0.8", "34.6" ]
+, [ 25, "EA3C0649-7FBB-4AAA-94CB-44A374ED8877", 25, 1245955385, "296892", 1245955385, "296892", null, "Hungary", "7.7", "10.8", "2.9", "3.3", "^", "24.8", "7.7", "10.8", "2.8", "3.4", "^", "24.7" ]
+, [ 26, "92CFE6F9-58B8-43F9-BDE2-973751108537", 26, 1245955385, "296892", 1245955385, "296892", null, "Iceland", "1", "-", "0.1", "-", "1.9", "3", "0.9", "-", "0.1", "-", "2.8", "3.9" ]
+, [ 27, "2DDAA9C0-4FFF-4793-9549-5025BBD21EF4", 27, 1245955385, "296892", 1245955385, "296892", null, "Republic of Ireland", "9.4", "4.3", "1.5", "-", "0.2", "15.4", "9", "4.5", "1.4", "-", "0.2", "15.1" ]
+, [ 28, "EBBF3ABD-065B-4F1A-9B69-8F8A469EC994", 28, 1245955385, "296892", 1245955385, "296892", null, "Italy", "84", "70.0", "17.2", "-", "7.3", "178.5", "80.9", "69.9", "17.0", "-", "8.8", "176.6" ]
+, [ 29, "DAFD6B11-4221-4C91-86FC-EB679EB6187C", 29, 1245955385, "296892", 1245955385, "296892", null, "Kazakhstan", "11.6", "17.6", "30.8", "-", "1.8", "61.8", "10.9", "18.5", "33.6", "-", "1.7", "64.7" ]
+, [ 30, "D6DC122E-11EF-4C40-BB08-CBC1058F6BE2", 30, 1245955385, "296892", 1245955385, "296892", null, "Lithuania", "2.8", "3.3", "0.2", "2.2", "0.2", "8.7", "3.1", "2.9", "0.2", "2.2", "0.2", "8.7" ]
+, [ 31, "23B51DC1-268E-4556-B7FB-ADC9B8CF96C3", 31, 1245955385, "296892", 1245955385, "296892", null, "Netherlands", "46", "33.3", "9.0", "1.0", "^", "89.3", "46.5", "34.7", "9.2", "0.9", "^", "91.4" ]
+, [ 32, "8B348ACB-A70C-4564-B03D-ECD14607F00D", 32, 1245955385, "296892", 1245955385, "296892", null, "Norway", "10.2", "3.8", "0.4", "-", "30.6", "45.1", "9.8", "4.0", "0.5", "-", "31.8", "46" ]
+, [ 33, "16F6E590-16B9-4B02-A0A3-32CA67F6F5BF", 33, 1245955385, "296892", 1245955385, "296892", null, "Poland", "24.2", "12.3", "57.9", "-", "0.7", "95.1", "24.9", "12.5", "59.4", "-", "0.6", "97.4" ]
+, [ 34, "BD21C47F-3D1A-4815-93CE-76239997377C", 34, 1245955385, "296892", 1245955385, "296892", null, "Portugal", "14.4", "3.8", "3.3", "-", "2.3", "23.9", "13.7", "4.1", "3.2", "-", "1.6", "22.6" ]
+, [ 35, "5C7CCA69-5EAD-4779-A7CE-8D6BD2EE9B13", 35, 1245955385, "296892", 1245955385, "296892", null, "Romania", "10.3", "14.5", "7.4", "1.7", "3.6", "37.5", "10.6", "13.1", "7.7", "2.5", "3.9", "37.8" ]
+, [ 36, "3A1875DF-04EE-4F33-85F8-636A7EE30D97", 36, 1245955385, "296892", 1245955385, "296892", null, "Russian Federation", "126.2", "383.1", "93.5", "36.5", "40.4", "679.7", "130.4", "378.2", "101.3", "36.9", "37.8", "684.6" ]
+, [ 37, "46DCF115-7ADF-4AE8-8969-1722846F8520", 37, 1245955385, "296892", 1245955385, "296892", null, "Slovakia", "4.1", "5.1", "3.8", "3.5", "1.0", "17.6", "4.3", "5.2", "3.9", "3.8", "1.0", "18.1" ]
+, [ 38, "0F22ABC2-AEB1-4B97-B831-CD1EBAC27F5E", 38, 1245955385, "296892", 1245955385, "296892", null, "Spain", "78.8", "31.6", "20.2", "12.5", "6.0", "149.2", "77.1", "35.1", "14.6", "13.3", "3.8", "143.9" ]
+, [ 39, "956E9579-2050-4F7E-9F7E-0E4C89E9870A", 39, 1245955385, "296892", 1245955385, "296892", null, "Sweden", "14.7", "0.9", "2.2", "15.2", "15.0", "48", "14.5", "0.9", "2.0", "14.5", "14.8", "46.7" ]
+, [ 40, "B0EE4964-9329-4029-AA7F-18E0E4DC3B5D", 40, 1245955385, "296892", 1245955385, "296892", null, "Switzerland", "11.3", "2.6", "0.1", "6.3", "7.9", "28.2", "12.1", "2.8", "0.1", "6.2", "8.1", "29.4" ]
+, [ 41, "46F8BD67-798C-4FD8-A2C4-20B18DF4710D", 41, 1245955385, "296892", 1245955385, "296892", null, "Turkey", "30.5", "31.6", "31.0", "-", "8.0", "101.1", "32.3", "32.4", "30.4", "-", "7.5", "102.6" ]
+, [ 42, "1341DFBA-8821-4393-8F3E-FCA1E0DF2FD9", 42, 1245955385, "296892", 1245955385, "296892", null, "Turkmenistan", "5.4", "19.1", "-", "-", "-", "24.5", "5.5", "17.1", "-", "-", "-", "22.6" ]
+, [ 43, "1A848D47-4304-47B2-8373-D2C0030D16F9", 43, 1245955385, "296892", 1245955385, "296892", null, "Ukraine", "15.3", "56.4", "39.7", "20.9", "2.3", "134.7", "15.5", "53.8", "39.3", "20.3", "2.6", "131.5" ]
+, [ 44, "2BBC8B01-EAEB-419D-ADA9-4C608E690424", 44, 1245955385, "296892", 1245955385, "296892", null, "United Kingdom", "79.2", "81.8", "38.2", "14.3", "1.2", "214.7", "78.7", "84.5", "35.4", "11.9", "1.1", "211.6" ]
+, [ 45, "E1FB4BB4-32A7-42B4-B546-F92D8B2169F4", 45, 1245955385, "296892", 1245955385, "296892", null, "Uzbekistan", "5.4", "41.3", "1.4", "-", "1.4", "49.5", "5.5", "43.8", "1.4", "-", "1.4", "52.2" ]
+, [ 46, "194403B3-C3C8-4F7F-84DA-DA6DEDD7C454", 46, 1245955385, "296892", 1245955385, "296892", null, "Other Europe & Eurasia", "27.9", "15.1", "15.7", "1.9", "16.3", "77", "29.2", "15.4", "16.1", "2.0", "17.0", "79.7" ]
+, [ 47, "2B580335-7704-4AC6-93D9-5A7EFBD12C67", 47, 1245955385, "296892", 1245955385, "296892", null, "Total Europe & Eurasia", "947.6", "1024.5", "528.9", "276.4", "179.6", "2956.9", "955.5", "1029.6", "522.7", "276.7", "180.2", "2964.6" ]
+, [ 48, "25BB2D1C-7D2B-46D3-8A5E-DB1A0E5050FC", 48, 1245955385, "296892", 1245955385, "296892", null, "Iran", "81.3", "101.7", "1.3", "-", "4.1", "188.4", "83.3", "105.8", "1.3", "-", "1.7", "192.1" ]
+, [ 49, "CFDC8D6E-A775-429B-8487-79C89E3F4CA6", 49, 1245955385, "296892", 1245955385, "296892", null, "Kuwait", "13.6", "10.9", "-", "-", "-", "24.5", "15.3", "11.5", "-", "-", "-", "26.8" ]
+, [ 50, "A645B8AB-6AA3-4BF6-9DA1-DDBC258C5A0D", 50, 1245955385, "296892", 1245955385, "296892", null, "Qatar", "4", "17.7", "-", "-", "-", "21.7", "4.6", "17.9", "-", "-", "-", "22.5" ]
+, [ 51, "ACCA2E27-C3F3-4E52-BFE1-CF204FBF49FA", 51, 1245955385, "296892", 1245955385, "296892", null, "Saudi Arabia", "96.1", "67.0", "-", "-", "-", "163.1", "104.2", "70.3", "-", "-", "-", "174.5" ]
+, [ 52, "3B19E594-D618-4BCD-901D-97541F478000", 52, 1245955385, "296892", 1245955385, "296892", null, "United Arab Emirates", "20.7", "44.4", "-", "-", "-", "65", "22.9", "52.3", "-", "-", "-", "75.2" ]
+, [ 53, "5BB863E5-EAB0-4372-8697-A1F1EE315A41", 53, 1245955385, "296892", 1245955385, "296892", null, "Other Middle East", "74.4", "31.3", "8.1", "-", "1.2", "114.9", "76.6", "36.6", "8.1", "-", "1.2", "122.5" ]
+, [ 54, "0F5092D1-DE68-4AD4-AB23-FCA327470D77", 54, 1245955385, "296892", 1245955385, "296892", null, "Total Middle East", "290.1", "273.0", "9.3", "-", "5.2", "577.6", "306.9", "294.4", "9.4", "-", "2.8", "613.5" ]
+, [ 55, "B117BF2A-B80E-412D-AFE3-3BB6932B83D7", 55, 1245955385, "296892", 1245955385, "296892", null, "Algeria", "12.9", "21.9", "0.7", "-", "0.1", "35.6", "14", "22.8", "0.7", "-", "0.1", "37.6" ]
+, [ 56, "41F1D18C-FD68-47D0-86D7-03BD6C70E5E9", 56, 1245955385, "296892", 1245955385, "296892", null, "Egypt", "30.6", "34.5", "1.0", "-", "3.5", "69.6", "32.6", "36.8", "1.0", "-", "3.9", "74.3" ]
+, [ 57, "96C2AD62-7E1B-4CFA-9846-A90F5E8657EA", 57, 1245955385, "296892", 1245955385, "296892", null, "South Africa", "25.8", "-", "97.7", "3.0", "0.6", "127.1", "26.3", "-", "102.8", "3.0", "0.2", "132.3" ]
+, [ 58, "55E9D091-EF88-458D-9CBD-3ABD0ABCB889", 58, 1245955385, "296892", 1245955385, "296892", null, "Other Africa", "60.7", "23.9", "6.2", "-", "18.0", "108.7", "62.3", "25.8", "5.7", "-", "18.1", "111.8" ]
+, [ 59, "D19C2D4A-9E0F-475C-BA17-5951807D8364", 59, 1245955385, "296892", 1245955385, "296892", null, "Total Africa", "129.9", "80.3", "105.7", "3.0", "22.1", "341", "135.2", "85.4", "110.3", "3.0", "22.2", "356" ]
+, [ 60, "3E7BA64B-6382-4FE4-9D9E-13A24DAB5DE1", 60, 1245955385, "296892", 1245955385, "296892", null, "Australia", "41.7", "22.4", "55.8", "-", "3.3", "123.2", "42.5", "21.2", "51.3", "-", "3.4", "118.3" ]
+, [ 61, "D83E5153-050E-41D6-B70F-07872350F9C6", 61, 1245955385, "296892", 1245955385, "296892", null, "Bangladesh", "4.5", "14.6", "0.4", "-", "0.3", "19.8", "4.6", "15.6", "0.4", "-", "0.3", "20.9" ]
+, [ 62, "511D14E6-7896-44C7-9770-4D47F24BC240", 62, 1245955385, "296892", 1245955385, "296892", null, "China", "362.8", "62.6", "1313.6", "14.1", "109.8", "1862.8", "375.7", "72.6", "1406.3", "15.5", "132.4", "2002.5" ]
+, [ 63, "D031CD20-8E4D-4A34-853B-2352183A392E", 63, 1245955385, "296892", 1245955385, "296892", null, "China Hong Kong SAR", "16", "2.0", "7.5", "-", "-", "25.5", "14.5", "2.3", "7.0", "-", "-", "23.8" ]
+, [ 64, "831C8FCA-A220-4EC8-85EE-82A531C890BF", 64, 1245955385, "296892", 1245955385, "296892", null, "India", "128.5", "36.0", "212.9", "4.0", "27.7", "409.2", "135", "37.2", "231.4", "3.5", "26.2", "433.3" ]
+, [ 65, "7914F4FB-0414-422A-AF3E-EB5217D294B3", 65, 1245955385, "296892", 1245955385, "296892", null, "Indonesia", "56.4", "30.6", "28.4", "-", "2.6", "117.9", "57.4", "34.2", "30.2", "-", "2.7", "124.4" ]
+, [ 66, "F928B5B5-8346-4E1D-955E-1CE55CE0E2F9", 66, 1245955385, "296892", 1245955385, "296892", null, "Japan", "229.3", "81.2", "125.3", "63.1", "16.8", "515.8", "221.8", "84.4", "128.7", "57.0", "15.7", "507.5" ]
+, [ 67, "827302AB-38A2-40AC-B779-3C36CD04EBAD", 67, 1245955385, "296892", 1245955385, "296892", null, "Malaysia", "22", "25.7", "7.1", "-", "1.5", "56.4", "21.8", "27.6", "5.0", "-", "1.5", "56" ]
+, [ 68, "9B911B5B-C17D-48E5-A668-387180A57BC4", 68, 1245955385, "296892", 1245955385, "296892", null, "New Zealand", "7.2", "3.7", "1.6", "-", "5.3", "17.8", "7.3", "3.4", "2.1", "-", "5.0", "17.9" ]
+, [ 69, "D9A3F413-706D-4A5A-B765-417830FFC218", 69, 1245955385, "296892", 1245955385, "296892", null, "Pakistan", "19.2", "32.8", "5.1", "0.6", "7.1", "64.8", "19.3", "33.8", "6.7", "0.4", "6.3", "66.5" ]
+, [ 70, "898676FF-6FD3-4DFF-9573-1A6D351D9BEB", 70, 1245955385, "296892", 1245955385, "296892", null, "Philippines", "14", "3.1", "5.9", "-", "1.9", "24.9", "13.4", "3.1", "6.2", "-", "2.2", "25" ]
+, [ 71, "010672A0-EA48-4336-ABB8-3CE6E175FF4E", 71, 1245955385, "296892", 1245955385, "296892", null, "Singapore", "47.4", "7.7", "-", "-", "-", "55.1", "49.9", "8.3", "-", "-", "-", "58.2" ]
+, [ 72, "EEFE472E-7EE2-44A1-AB27-93ED3D82012A", 72, 1245955385, "296892", 1245955385, "296892", null, "South Korea", "108.3", "34.7", "59.7", "32.3", "0.7", "235.7", "103.3", "35.7", "66.1", "34.2", "0.9", "240.1" ]
+, [ 73, "685983A7-BEA3-445B-B21A-72ED5247FC52", 73, 1245955385, "296892", 1245955385, "296892", null, "Taiwan", "52.5", "10.6", "41.8", "9.2", "1.0", "115.1", "50.1", "11.5", "40.2", "9.2", "0.9", "112" ]
+, [ 74, "AD572ECC-6A4D-4A67-A295-D028097BEF2B", 74, 1245955385, "296892", 1245955385, "296892", null, "Thailand", "38.2", "31.8", "14.1", "-", "1.8", "86", "36.7", "33.7", "15.4", "-", "1.6", "87.3" ]
+, [ 75, "3A5DDB00-8EB5-43EC-9712-BBBAE7B92521", 75, 1245955385, "296892", 1245955385, "296892", null, "Other Asia Pacific", "29.4", "11.7", "34.2", "-", "10.8", "86.1", "30", "12.2", "34.6", "-", "11.6", "88.4" ]
+, [ 76, "46322F59-925C-4FA9-960E-58C6A6EF7EBC", 76, 1245955385, "296892", 1245955385, "296892", null, "Total Asia Pacific", "1177.4", "411.2", "1913.5", "123.3", "190.7", "3816", "1183.4", "436.8", "2031.2", "119.8", "210.8", "3981.9" ]
+, [ 77, "6FA02391-670E-493D-B79A-F5796A0611ED", 77, 1245955385, "296892", 1245955385, "296892", null, "Total World", "3939.4", "2652.2", "3194.5", "622.5", "695.8", "11104.4", "3927.9", "2726.1", "3303.7", "619.7", "717.5", "11294.9" ]
+ ]
+}
