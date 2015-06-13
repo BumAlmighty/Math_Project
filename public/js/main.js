@@ -5,6 +5,10 @@ console.log('hello ' + name);
 $(document).ready(function() {
 	$("#test").css({"background-color": "yellow", "width": "100%", "height": "auto"});
 
+    // /tables page
+    $('table.display').dataTable();
+    
+
  //$.getJSON("../js/data_sets/us.gov.eia.860.json", function(json) {
  //    console.log(json.result); // this will show the info it in firebug console
 
@@ -18,8 +22,9 @@ $(document).ready(function() {
  //    	console.log( value.ownerstate );
  //    	console.log(name + ' ' + key)
 
-  // $.getJSON("../js/data_sets/us.states.ny.cities.nyc.electricity-consumption.json", function(json) {
- $.getJSON("../js/data_sets/us.gov.eia.860.json", function(json) {
+     $.getJSON("../js/data_sets/us.states.ny.cities.nyc.electricity-consumption.json", function(json) {
+     // $.getJSON("../js/data_sets/us.gov.eia.860.json", function(json) {
+
 
     console.log(json.result); // this will show the info it in firebug console
 
@@ -35,10 +40,10 @@ $(document).ready(function() {
     		data_collection = data_collection + '<b>Address: </b><i>' + value.street_address + '</i><br>'
             data_collection = data_collection + "<b>Sector Name: </b><i>" + value.sector_name + "</i><br>"
             data_collection = data_collection + "<b>Name of Water Source: </b><i>" + value.name_of_water_source +"</i><br>"
-    		data_collection = data_collection + '<br><br>'
-    });
+            data_collection = data_collection + '<b>Grid Voltage: </b><i>' + value.gridvoltage + "</i><br>"
+        });
 
     // value data collection side the selected div.
     $("#test").html(data_collection);
-  });
+});
 });

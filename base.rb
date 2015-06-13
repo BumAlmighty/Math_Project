@@ -2,6 +2,7 @@
 require 'sinatra'
 require 'HTTParty'
 require	'json'
+require 'csv'
 # require 'sinatra/reloader'
 
 get '/' do
@@ -12,9 +13,14 @@ get '/' do
 end
 
 get '/tables' do
-  erb :tables
+	@table1_data = CSV.read("public/data_sets/csv/Energy_Statistics_2009.csv")
+	@table3_data = CSV.read("public/data_sets/csv/enigma-us.gov.eia.seds.joined.csv")
+	@table2_data = CSV.read("public/data_sets/csv/enigma-us.states.ny.cities.nyc.electricity-consumption.2010.csv", headers: true)
+	@table4_data = CSV.read("public/data_sets/csv/enigma-us.gov.senate.publicrecords.lobbying.issue.csv")
 
+	erb :tables
 end
+
 get"/graphs" do 
 	erb :graphs
 

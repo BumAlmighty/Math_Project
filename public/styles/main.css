@@ -19,7 +19,12 @@ body{
 	/*background-size: 50px 50px;*/
 
 }
-
+#datatable-container{
+	padding:200px 0;
+}
+div.dataTables_wrapper {
+	margin-bottom: 3em;
+}
 .ui .column .main{
 	margin-top: 30px;
 	padding: 50px;
