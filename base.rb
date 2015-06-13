@@ -18,11 +18,15 @@ get '/tables' do
 	@table2_data = CSV.read("public/data_sets/csv/enigma-us.states.ny.cities.nyc.electricity-consumption.2010.csv", headers: true)
 	@table4_data = CSV.read("public/data_sets/csv/enigma-us.gov.senate.publicrecords.lobbying.issue.csv")
 
+
 	erb :tables
 end
 
-get"/graphs" do 
+get"/graphs" do
+@graph1_data = CSV.read("enigma-gov.eu.eurostats.tb.t-envir.t-nrg.t-nrg-quant.ten00082-10d5bc224875239455fe744da71a31d0.csv")
+
 	erb :graphs
+
 
 end
 
