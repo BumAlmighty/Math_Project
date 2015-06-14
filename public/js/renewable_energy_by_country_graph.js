@@ -3,7 +3,6 @@ var renewable_energy_by_country_data = [];
 Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb-eu.sd.sd-cc.sd-cc-nrg.tsdcc330-242b5fc76aa31f1296271ff8a7fb207c.csv', {
     download: true,
     complete: function(results) {
-      console.log(results);
 
       var series_data = [];
       var category_data = [];
