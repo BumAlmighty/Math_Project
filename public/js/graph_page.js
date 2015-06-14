@@ -3,11 +3,12 @@ $(document).ready(function() {
 
   var data_collection = '';
 
-  $.getJSON("/data_sets/json/us.gov.government-spending.fpds.top-100-contractors.json", function(json) {
-     console.log(json.result); // this will show the info it in firebug console
-     $( json.result ).each(function( key, value ) {
-     });
-   });
+  // $.getJSON("/data_sets/json/us.gov.government-spending.fpds.top-100-contractors.json", function(json) {
+  //    console.log(json.result); // this will show the info it in firebug console
+  //    $( json.result ).each(function( key, value ) {
+  //      console.log( global_vendor_name )
+  //    });
+  //  });
 
   // this data has latitude and longitude
   // $.getJSON("/data_sets/json/us.gov.eia.860.json", function(json) {

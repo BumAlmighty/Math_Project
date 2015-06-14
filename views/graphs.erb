@@ -1,81 +1,85 @@
 
 <!doctype html>
 <html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <title>Home | Gists.io</title>
-    <meta name="description" content="">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name="mobile-web-app-capable" content="yes">
+<head>
+  <meta charset="utf-8">
+  <title>Home | Gists.io</title>
+  <meta name="description" content="">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
-    <!-- endbower -->
-    <!-- endbuild -->
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
+  <!-- endbower -->
+  <!-- endbuild -->
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/javascript/semantic.min.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-    <script src="../js/jquery-1.11.3.min.js"></script>
-    <script src="../js/highcharts/highcharts.js"></script>
-    <script src="http://code.highcharts.com/highcharts-more.js"></script>
-    <script src="../js/highcharts/modules/exporting.src.js"></script>
-    <script src="../js/papaparse.min.js"></script>
-    <script src="../js/graph_page.js"></script>
-  </head>
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/javascript/semantic.min.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <script src="../js/jquery-1.11.3.min.js"></script>
+  <script src="../js/highcharts/highcharts.js"></script>
+  <script src="http://code.highcharts.com/highcharts-more.js"></script>
+  <script src="../js/highcharts/modules/exporting.src.js"></script>
+  <script src="../js/graph_page.js"></script>
 
-  <body>
+  <script src="../js/stacked_area_fuel_consumption.js"></script>
+</head>
 
-    <nav class="ui fixed menu inverted navbar">
+<body>
+
+  <nav class="ui fixed menu inverted navbar">
     <a href="/" class="brand item">Renewable Energy Sources </a>
     <a href="/" class="item">About</a>
     <a href="/tables" class="item">Data Table <%#= @zeo %></a>
     <a href="/graphs" class="active item">Graphs</a>
-    </nav> <!-- end nav -->
+  </nav> <!-- end nav -->
 
-    <main class="ui page grid">
+  <main class="ui page grid">
     <div class="row">
       <div class="center aligned starter column">
         <h1 class="ui header">About</h1>
 
         <!-- highcharts container 
-        -->
-        <div id="test"></div>
-
-        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
-        </div>
-
-        <div id="container2" style="min-width: 310px; height: 400px; margin: 0 auto">
-        </div>
-
-        <div id="container3" style="min-width: 310px; height: 400px; margin: 0 auto">
-        </div>
-
-        <div id="container4" style="min-width: 310px; height: 400px; margin: 0 auto">
-        </div>  
+      -->
+      <div id="test"></div>
 
 
-        <p>Use this document as a way to quickly start any new project.</p>
-        <p><b>All you get is this text and a mostly barebones disfigured the momentum no the "write" moment of all </b></p>
+      <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
       </div>
 
+      <div id="container2" style="min-width: 310px; height: 400px; margin: 0 auto">
+      </div>
+
+      <div id="container3" style="min-width: 310px; height: 400px; margin: 0 auto">
+      </div>
+
+      <div id="container4" style="min-width: 310px; height: 400px; margin: 0 auto">
+      </div>  
+
+      <div id="fuel_consumption" style="min-width: 310px; height: 400px; margin: 0 auto">
+      </div>  
+
+      <p>Use this document as a way to quickly start any new project.</p>
+      <p><b>All you get is this text and a mostly barebones disfigured the momentum no the "write" moment of all </b></p>
     </div>
-    <div class="row">
-    </div>
+
+  </div>
+  <div class="row">
+  </div>
 
 
-    </main>
+</main>
 
-    <script type="text/javascript">
+<script type="text/javascript">
       // if you mess up replace from here
       // http://jsfiddle.net/gh/get/jquery/1.9.1/highslide-software/highcharts.com/tree/master/samples/highcharts/demo/line-basic/
       // 
@@ -127,7 +131,7 @@
             data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
           }]
         });
-      });
+});
 
       // if you mess up replace to here
 
@@ -158,7 +162,7 @@
           },
           subtitle: {
             text: 'Source: <a href="http://thebulletin.metapress.com/content/c4120650912x74k7/fulltext.pdf">' +
-              'thebulletin.metapress.com</a>'
+            'thebulletin.metapress.com</a>'
           },
           xAxis: {
             allowDecimals: false,
@@ -200,24 +204,24 @@
           {
             name: 'USA',
             data: [null, null, null, null, null, 6, 11, 32, 110, 235, 369, 640,
-              1005, 1436, 2063, 3057, 4618, 6444, 9822, 15468, 20434, 24126,
-              27387, 29459, 31056, 31982, 32040, 31233, 29224, 27342, 26662,
-              26956, 27912, 28999, 28965, 27826, 25579, 25722, 24826, 24605,
-              24304, 23464, 23708, 24099, 24357, 24237, 24401, 24344, 23586,
-              22380, 21004, 17287, 14747, 13076, 12555, 12144, 11009, 10950,
+            1005, 1436, 2063, 3057, 4618, 6444, 9822, 15468, 20434, 24126,
+            27387, 29459, 31056, 31982, 32040, 31233, 29224, 27342, 26662,
+            26956, 27912, 28999, 28965, 27826, 25579, 25722, 24826, 24605,
+            24304, 23464, 23708, 24099, 24357, 24237, 24401, 24344, 23586,
+            22380, 21004, 17287, 14747, 13076, 12555, 12144, 11009, 10950,
             10871, 10824, 10577, 10527, 10475, 10421, 10358, 10295, 10104]
           }, {
             name: 'USSR/Russia',
             data: [null, null, null, null, null, null, null, null, null, null,
-              5, 25, 50, 120, 150, 200, 426, 660, 869, 1060, 1605, 2471, 3322,
-              4238, 5221, 6129, 7089, 8339, 9399, 10538, 11643, 13092, 14478,
-              15915, 17385, 19055, 21205, 23044, 25393, 27935, 30062, 32049,
-              33952, 35804, 37431, 39197, 45000, 43000, 41000, 39000, 37000,
-              35000, 33000, 31000, 29000, 27000, 25000, 24000, 23000, 22000,
+            5, 25, 50, 120, 150, 200, 426, 660, 869, 1060, 1605, 2471, 3322,
+            4238, 5221, 6129, 7089, 8339, 9399, 10538, 11643, 13092, 14478,
+            15915, 17385, 19055, 21205, 23044, 25393, 27935, 30062, 32049,
+            33952, 35804, 37431, 39197, 45000, 43000, 41000, 39000, 37000,
+            35000, 33000, 31000, 29000, 27000, 25000, 24000, 23000, 22000,
             21000, 20000, 19000, 18000, 18000, 17000, 16000]
           }]
         });
-      });
+});
 
       // Graph 4 Column with Negative Value
       $(function () {
@@ -298,24 +302,24 @@
           series: [{
             name: 'Temperatures',
             data: [
-              [-9.7, 9.4],
-              [-8.7, 6.5],
-              [-3.5, 9.4],
-              [-1.4, 19.9],
-              [0.0, 22.6],
-              [2.9, 29.5],
-              [9.2, 30.7],
-              [7.3, 26.5],
-              [4.4, 18.0],
-              [-3.1, 11.4],
-              [-5.2, 10.4],
-              [-13.5, 9.8]
+            [-9.7, 9.4],
+            [-8.7, 6.5],
+            [-3.5, 9.4],
+            [-1.4, 19.9],
+            [0.0, 22.6],
+            [2.9, 29.5],
+            [9.2, 30.7],
+            [7.3, 26.5],
+            [4.4, 18.0],
+            [-3.1, 11.4],
+            [-5.2, 10.4],
+            [-13.5, 9.8]
             ]
           }]
 
         });
 
-      });
+});
 
       // // Graph 6 Column Rotated Labels
       $(function () {
@@ -354,26 +358,26 @@
           series: [{
             name: 'Population',
             data: [
-              ['Shanghai', 23.7],
-              ['Lagos', 16.1],
-              ['Instanbul', 14.2],
-              ['Karachi', 14.0],
-              ['Mumbai', 12.5],
-              ['Moscow', 12.1],
-              ['São Paulo', 11.8],
-              ['Beijing', 11.7],
-              ['Guangzhou', 11.1],
-              ['Delhi', 11.1],
-              ['Shenzhen', 10.5],
-              ['Seoul', 10.4],
-              ['Jakarta', 10.0],
-              ['Kinshasa', 9.3],
-              ['Tianjin', 9.3],
-              ['Tokyo', 9.0],
-              ['Cairo', 8.9],
-              ['Dhaka', 8.9],
-              ['Mexico City', 8.9],
-              ['Lima', 8.9]
+            ['Shanghai', 23.7],
+            ['Lagos', 16.1],
+            ['Instanbul', 14.2],
+            ['Karachi', 14.0],
+            ['Mumbai', 12.5],
+            ['Moscow', 12.1],
+            ['São Paulo', 11.8],
+            ['Beijing', 11.7],
+            ['Guangzhou', 11.1],
+            ['Delhi', 11.1],
+            ['Shenzhen', 10.5],
+            ['Seoul', 10.4],
+            ['Jakarta', 10.0],
+            ['Kinshasa', 9.3],
+            ['Tianjin', 9.3],
+            ['Tokyo', 9.0],
+            ['Cairo', 8.9],
+            ['Dhaka', 8.9],
+            ['Mexico City', 8.9],
+            ['Lima', 8.9]
             ],
             dataLabels: {
               enabled: true,
@@ -389,7 +393,7 @@
             }
           }]
         });
-      });
+});
 
 
       // Graph 7 Bar Stacked
@@ -435,9 +439,9 @@
       // Graph 8 Bar Negative stack
       $(function () {
         var categories = ['0-4', '5-9', '10-14', '15-19',
-          '20-24', '25-29', '30-34', '35-39', '40-44',
-          '45-49', '50-54', '55-59', '60-64', '65-69',
-          '70-74', '75-79', '80-84', '85-89', '90-94',
+        '20-24', '25-29', '30-34', '35-39', '40-44',
+        '45-49', '50-54', '55-59', '60-64', '65-69',
+        '70-74', '75-79', '80-84', '85-89', '90-94',
         '95-99', '100 + '];
         $(document).ready(function () {
           $('#container').highcharts({
@@ -487,25 +491,25 @@
             tooltip: {
               formatter: function () {
                 return '<b>' + this.series.name + ', age ' + this.point.category + '</b><br/>' +
-                  'Population: ' + Highcharts.numberFormat(Math.abs(this.point.y), 0);
+                'Population: ' + Highcharts.numberFormat(Math.abs(this.point.y), 0);
               }
             },
 
             series: [{
               name: 'Male',
               data: [-1746181, -1884428, -2089758, -2222362, -2537431, -2507081, -2443179,
-                -2664537, -3556505, -3680231, -3143062, -2721122, -2229181, -2227768,
+              -2664537, -3556505, -3680231, -3143062, -2721122, -2229181, -2227768,
               -2176300, -1329968, -836804, -354784, -90569, -28367, -3878]
             }, {
               name: 'Female',
               data: [1656154, 1787564, 1981671, 2108575, 2403438, 2366003, 2301402, 2519874,
-                3360596, 3493473, 3050775, 2759560, 2304444, 2426504, 2568938, 1785638,
+              3360596, 3493473, 3050775, 2759560, 2304444, 2426504, 2568938, 1785638,
               1447162, 1005011, 330870, 130632, 21208]
             }]
           });
-        });
+});
 
-      });
+});
 
 
       // Graph 9 Scatter
@@ -681,7 +685,7 @@
             [180.3, 83.2], [180.3, 83.2]]
           }]
         });
-      });
+});
 
       // Graph 10 Polar Wind Rose
 
@@ -752,7 +756,7 @@
             }
           }
         });
-      });
+});
 
 
       // Graph 11 Area Spline
@@ -777,13 +781,13 @@
           },
           xAxis: {
             categories: [
-              'Monday',
-              'Tuesday',
-              'Wednesday',
-              'Thursday',
-              'Friday',
-              'Saturday',
-              'Sunday'
+            'Monday',
+            'Tuesday',
+            'Wednesday',
+            'Thursday',
+            'Friday',
+            'Saturday',
+            'Sunday'
             ],
             plotBands: [{ // visualize the weekend
               from: 4.5,
@@ -816,7 +820,7 @@
             data: [1, 3, 4, 3, 3, 5, 4]
           }]
         });
-      });
+});
 
       // Graph 12 Treemap
 
@@ -840,13 +844,13 @@
           },
           xAxis: {
             categories: [
-              'Monday',
-              'Tuesday',
-              'Wednesday',
-              'Thursday',
-              'Friday',
-              'Saturday',
-              'Sunday'
+            'Monday',
+            'Tuesday',
+            'Wednesday',
+            'Thursday',
+            'Friday',
+            'Saturday',
+            'Sunday'
             ],
             plotBands: [{ // visualize the weekend
               from: 4.5,
@@ -879,9 +883,9 @@
             data: [1, 3, 4, 3, 3, 5, 4]
           }]
         });
-      });
+});
 
-    </script>
+</script>
 
-  </body>
+</body>
 </html>

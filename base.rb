@@ -3,6 +3,7 @@ require 'sinatra'
 require 'HTTParty'
 require	'json'
 require 'csv'
+require "awesome_print"
 # require 'sinatra/reloader'
 
 get '/' do
@@ -22,8 +23,7 @@ get '/tables' do
 end
 
 get"/graphs" do
-  @graph1_data = CSV.read("public/data_sets/csv/enigma-gov.eu.eurostats.tb.t-envir.t-nrg.t-nrg-quant.ten00082-10d5bc224875239455fe744da71a31d0.csv")
-  erb :graphs
+	erb :graphs
 end
 
 get '/hello/:name' do

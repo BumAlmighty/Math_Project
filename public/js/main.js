@@ -25,7 +25,7 @@ $(document).ready(function() {
   // $.getJSON("../js/data_sets/us.gov.eia.860.json", function(json) {
   // }
 
-  $.getJSON("../js/data_sets/us.states.ny.cities.nyc.electricity-consumption.json", function(json) {
+  $.getJSON("/data_sets/json/Fuel_Consumption.json", function(json) {
     console.log(json.result); // this will show the info it in firebug console
 
     // data collection is creaing var, to hold data.
