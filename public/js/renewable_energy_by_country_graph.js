@@ -35,10 +35,10 @@ Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb-eu.sd.sd-cc.sd-cc-nrg.tsdc
             type: 'area'
           },
           title: {
-            text: 'Historic and Estimated Worldwide Population Distribution by Region'
+            text: 'Renewable Energy by Country'
           },
           subtitle: {
-            text: 'Source: Wikipedia.org'
+            text: 'Source: Engima.io'
           },
           xAxis: {
             categories: ['1750', '1800', '1850', '1900', '1950', '1999', '2050'],
