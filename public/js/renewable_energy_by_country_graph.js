@@ -1,12 +1,12 @@
 var renewable_energy_by_country_data = [];
 
 Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb-eu.sd.sd-cc.sd-cc-nrg.tsdcc330-242b5fc76aa31f1296271ff8a7fb207c.csv', {
-  // Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb.t-envir.t-nrg.t-nrg-quant.ten00082-10d5bc224875239455fe744da71a31d0.csv', {
     download: true,
     complete: function(results) {
       console.log(results);
 
       var series_data = [];
+      var category_data = [];
 
       $( results.data ).each(function( key, value ) {
         if (key != 0) {
@@ -20,6 +20,7 @@ Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb-eu.sd.sd-cc.sd-cc-nrg.tsdc
           var value17 = isNaN(value[17]) ? 17 : parseInt(value[17]);
           var value19 = isNaN(value[19]) ? 19 : parseInt(value[19]);
 
+          category_data.push(value3);
           series_data.push(
             {
               name: value[2],
@@ -41,7 +42,7 @@ Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb-eu.sd.sd-cc.sd-cc-nrg.tsdc
             text: 'Source: Engima.io'
           },
           xAxis: {
-            categories: ['1750', '1800', '1850', '1900', '1950', '1999', '2050'],
+            categories: [0, 10, 20, 30, 40, 50, 60, 70, 80],
             tickmarkPlacement: 'on',
             title: {
               enabled: false
@@ -49,7 +50,7 @@ Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb-eu.sd.sd-cc.sd-cc-nrg.tsdc
           },
           yAxis: {
             title: {
-              text: 'Percent'
+              text: 'percent'
             }
           },
           tooltip: {

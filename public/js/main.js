@@ -1,9 +1,12 @@
 $(document).ready(function() {
   // /tables page
-  $('#table2').dataTable({
+  $('#table1').dataTable({
     'paging'  : true,
     'searching' : true
   });
+
+  $('#table2').dataTable({});
+  $('#table3').dataTable({});
 
   // $.getJSON("../js/data_sets/us.gov.eia.860.json", function(json) {
   //    console.log(json.result); // this will show the info it in firebug console

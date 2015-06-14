@@ -103,6 +103,7 @@
                  <th>Nuclear Energy</th>
                  <th>Hydro electric</th>
                  <th>Total 2008</th>
+                 <th></th>
                </tr>
              </thead>
 
@@ -121,7 +122,6 @@
                  <td><%= table_data[9] %></td>
                  <td><%= table_data[10] %></td>
                  <td><%= table_data[11] %></td>
-
                </tr>
                <% end %>
 
@@ -131,7 +131,7 @@
          </div>
 
          <h1>Use of Solar Power for Each State</h1>
-         <table id="table3" class="display data-table" cellspacing="0" width="100%">
+         <table id="table2" class="display data-table" cellspacing="0" width="100%">
            <thead>
              <tr>
                <th>year</th>
@@ -140,7 +140,6 @@
                <th>unit</th>
                <th>data</th>
                <th>msn</th>
-               <th>serialid</th>
              </tr>
            </thead>
 
@@ -153,17 +152,13 @@
                <td><%= table_data[3] %></td>
                <td><%= table_data[4] %></td>
                <td><%= table_data[5] %></td>
-               <td><%= table_data[6] %></td>
-               <td><%= table_data[7] %></td>
-               <td><%= table_data[8] %></td>
-
              </tr>
              <% end %>
            </tbody> 
          </table>  
 
          <h1>NYC electricty consumption 2010</h1>
-         <table id="table2" class="display data-table" cellspacing="0" width="100%">
+         <table id="table3" class="display" cellspacing="0" width="100%">
            <thead>
              <tr>
                <th>zip_code</th>
@@ -171,55 +166,21 @@
                <th>consumption_kwh</th>
                <th>consumption_gj</th>
                <th>utility_data_source</th>
-               <th>serialid</th>
              </tr>
            </thead>
 
            <tbody>
              <% @table2_data.each do |table_data| %>
              <tr>
-               <td><%= table_data[0] %></td>
+               <td><%= table_data[0][0..5] if table_data[0] %></td>
                <td><%= table_data[1] %></td>
                <td><%= table_data[2] %></td>
                <td><%= table_data[3] %></td>
                <td><%= table_data[4] %></td>
-               <td><%= table_data[5] %></td>
-               <td><%= table_data[6] %></td>
-
              </tr>
              <% end %>
            </tbody> 
          </table>  
-
-         <h1>Lobbying Records About Energy</h1>
-         <table id="table4" class="display data-table" cellspacing="0" width="100%">
-           <thead>
-             <tr>
-               <th>id</th>
-               <th>year</th>
-               <th>transaction_id</th>
-               <th>general_issue_code</th>
-               <th>general_issue</th>
-               <th>specific_issue</th>
-               <th>serialid</th>
-             </thead>
-
-             <tbody>
-               <% @table4_data.each do |table_data| %>
-               <tr>
-                 <td><%= table_data[0] %></td>
-                 <td><%= table_data[1] %></td>
-                 <td><%= table_data[2] %></td>
-                 <td><%= table_data[3] %></td>
-                 <td><%= table_data[4] %></td>
-                 <td><%= table_data[5] %></td>
-                 <td><%= table_data[6] %></td>
-                 <td><%= table_data[7] %></td>
-
-               </tr>
-               <% end %>
-             </tbody> 
-           </table>  
 
          </div>
       </section>
