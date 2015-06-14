@@ -49,196 +49,179 @@
 
      <!-- Navigation -->
      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">Zeo's Statistics Project</a>
-            </div>
+     <div class="container">
+       <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="navbar-header page-scroll">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/">Zeo's Statistics Project</a>
+       </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="/"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/" class="item">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/tables" class="item">Data Table</a>
-                        <!-- <a href="#about">About</a> -->
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/graphs" class="item">Graphs</a>
-                        <!-- <a href="#contact">tables</a> -->
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <section id="datatable-container" class="">
-        <div class="container">
-            <div class="table-container">
-                <h1>Energy Statistics 2009</h1>
-                <table id="table1" class="display data-table" cellspacing="0" width="100%">
-                    <thead>
-                        <tr>
-                            <th>Consumption by Fuel</th>
-                            <th>Million tonnes oil equivalent</th>
-                            <th>Oil-2,Natural Gas-2</th>
-                            <th>Coal-2,Nuclear Energy-2</th>
-                            <th>Hydro electric-2</th>
-                            <th>Total 2007</th>
-                            <th>Oil,Natural Gas</th>
-                            <th>Coal</th>
-                            <th>Nuclear Energy</th>
-                            <th>Hydro electric</th>
-                            <th>Total 2008</th>
-                        </tr>
-                    </thead>
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+           <li class="hidden">
+           <a href="/"></a>
+           </li>
+           <li class="page-scroll">
+           <a href="/" class="item">About</a>
+           </li>
+           <li class="page-scroll">
+           <a href="/tables" class="item">Data Table</a>
+           <!-- <a href="#about">About</a> -->
+           </li>
+           <li class="page-scroll">
+           <a href="/graphs" class="item">Graphs</a>
+           <!-- <a href="#contact">tables</a> -->
+           </li>
+         </ul>
+       </div>
+       <!-- /.navbar-collapse -->
+     </div>
+     <!-- /.container-fluid -->
+     </nav>
 
-                    <tbody>
-                        <% @table1_data.each do |table_data| %>
-                        <tr>
-                            <td><%= table_data[0] %></td>
-                            <td><%= table_data[1] %></td>
-                            <td><%= table_data[2] %></td>
-                            <td><%= table_data[3] %></td>
-                            <td><%= table_data[4] %></td>
-                            <td><%= table_data[5] %></td>
-                            <td><%= table_data[6] %></td>
-                            <td><%= table_data[7] %></td>
-                            <td><%= table_data[8] %></td>
-                            <td><%= table_data[9] %></td>
-                            <td><%= table_data[10] %></td>
-                            <td><%= table_data[11] %></td>
+     <section id="datatable-container" class="">
+       <div class="container">
+         <div class="table-container">
+           <h1>Energy Statistics 2009</h1>
+           <table id="table1" class="display data-table" cellspacing="0" width="100%">
+             <thead>
+               <tr>
+                 <th>Consumption by Fuel</th>
+                 <th>Million tonnes oil equivalent</th>
+                 <th>Oil-2,Natural Gas-2</th>
+                 <th>Coal-2,Nuclear Energy-2</th>
+                 <th>Hydro electric-2</th>
+                 <th>Total 2007</th>
+                 <th>Oil,Natural Gas</th>
+                 <th>Coal</th>
+                 <th>Nuclear Energy</th>
+                 <th>Hydro electric</th>
+                 <th>Total 2008</th>
+               </tr>
+             </thead>
 
-                        </tr>
-                        <% end %>
+             <tbody>
+               <% @table1_data.each do |table_data| %>
+               <tr>
+                 <td><%= table_data[0] %></td>
+                 <td><%= table_data[1] %></td>
+                 <td><%= table_data[2] %></td>
+                 <td><%= table_data[3] %></td>
+                 <td><%= table_data[4] %></td>
+                 <td><%= table_data[5] %></td>
+                 <td><%= table_data[6] %></td>
+                 <td><%= table_data[7] %></td>
+                 <td><%= table_data[8] %></td>
+                 <td><%= table_data[9] %></td>
+                 <td><%= table_data[10] %></td>
+                 <td><%= table_data[11] %></td>
 
-                    </tbody> 
+               </tr>
+               <% end %>
 
-                </table>  
-            </div>
-         
-                <h1>Join</h1>
-                <table id="table3" class="display data-table" cellspacing="0" width="100%">
-                    <thead>
-                        <tr>
-                            <th>year</th>
-                            <th>statecode</th>
-                            <th>description</th>
-                            <th>unit</th>
-                            <th>data</th>
-                            <th>msn</th>
-                            <th>serialid</th>
-                        </tr>
-                    </thead>
+             </tbody> 
 
-                    <tbody>
-                        <% @table3_data.each do |table_data| %>
-                        <tr>
-                            <td><%= table_data[0] %></td>
-                            <td><%= table_data[1] %></td>
-                            <td><%= table_data[2] %></td>
-                            <td><%= table_data[3] %></td>
-                            <td><%= table_data[4] %></td>
-                            <td><%= table_data[5] %></td>
-                            <td><%= table_data[6] %></td>
-                            <td><%= table_data[7] %></td>
-                            <td><%= table_data[8] %></td>
+           </table>  
+         </div>
 
+         <h1>Join</h1>
+         <table id="table3" class="display data-table" cellspacing="0" width="100%">
+           <thead>
+             <tr>
+               <th>year</th>
+               <th>statecode</th>
+               <th>description</th>
+               <th>unit</th>
+               <th>data</th>
+               <th>msn</th>
+               <th>serialid</th>
+             </tr>
+           </thead>
 
+           <tbody>
+             <% @table3_data.each do |table_data| %>
+             <tr>
+               <td><%= table_data[0] %></td>
+               <td><%= table_data[1] %></td>
+               <td><%= table_data[2] %></td>
+               <td><%= table_data[3] %></td>
+               <td><%= table_data[4] %></td>
+               <td><%= table_data[5] %></td>
+               <td><%= table_data[6] %></td>
+               <td><%= table_data[7] %></td>
+               <td><%= table_data[8] %></td>
 
-                        </tr>
-                        <% end %>
-                        
-                    </tbody> 
+             </tr>
+             <% end %>
+           </tbody> 
+         </table>  
 
-                </table>  
+         <h1>NYC electricty consumption 2010</h1>
+         <table id="table2" class="display data-table" cellspacing="0" width="100%">
+           <thead>
+             <tr>
+               <th>zip_code</th>
+               <th>building_type_service_class</th>
+               <th>consumption_kwh</th>
+               <th>consumption_gj</th>
+               <th>utility_data_source</th>
+               <th>serialid</th>
+             </tr>
+           </thead>
 
-           
-                <h1>NYC electricty consumption 2010</h1>
-                <table id="table2" class="display data-table" cellspacing="0" width="100%">
-                    <thead>
-                        <tr>
-                            <th>zip_code</th>
-                            <th>building_type_service_class</th>
-                            <th>consumption_kwh</th>
-                            <th>consumption_gj</th>
-                            <th>utility_data_source</th>
-                            <th>serialid</th>
-                        </tr>
-                    </thead>
+           <tbody>
+             <% @table2_data.each do |table_data| %>
+             <tr>
+               <td><%= table_data[0] %></td>
+               <td><%= table_data[1] %></td>
+               <td><%= table_data[2] %></td>
+               <td><%= table_data[3] %></td>
+               <td><%= table_data[4] %></td>
+               <td><%= table_data[5] %></td>
+               <td><%= table_data[6] %></td>
 
-                    <tbody>
-                        <% @table2_data.each do |table_data| %>
-                        <tr>
-                            <td><%= table_data[0] %></td>
-                            <td><%= table_data[1] %></td>
-                            <td><%= table_data[2] %></td>
-                            <td><%= table_data[3] %></td>
-                            <td><%= table_data[4] %></td>
-                            <td><%= table_data[5] %></td>
-                            <td><%= table_data[6] %></td>
+             </tr>
+             <% end %>
+           </tbody> 
+         </table>  
 
+         <h1>Lobbying Records About Energy</h1>
+         <table id="table4" class="display data-table" cellspacing="0" width="100%">
+           <thead>
+             <tr>
+               <th>id</th>
+               <th>year</th>
+               <th>transaction_id</th>
+               <th>general_issue_code</th>
+               <th>general_issue</th>
+               <th>specific_issue</th>
+               <th>serialid</th>
+             </thead>
 
-                        </tr>
-                        <% end %>
-                        
-                    </tbody> 
+             <tbody>
+               <% @table4_data.each do |table_data| %>
+               <tr>
+                 <td><%= table_data[0] %></td>
+                 <td><%= table_data[1] %></td>
+                 <td><%= table_data[2] %></td>
+                 <td><%= table_data[3] %></td>
+                 <td><%= table_data[4] %></td>
+                 <td><%= table_data[5] %></td>
+                 <td><%= table_data[6] %></td>
+                 <td><%= table_data[7] %></td>
 
-                </table>  
+               </tr>
+               <% end %>
+             </tbody> 
+           </table>  
 
-
-           
-                <h1>Lobbying Records About Energy</h1>
-                <table id="table4" class="display data-table" cellspacing="0" width="100%">
-                    <thead>
-                        <tr>
-                            <th>id</th>
-                            <th>year</th>
-                            <th>transaction_id</th>
-                            <th>general_issue_code</th>
-                            <th>general_issue</th>
-                            <th>specific_issue</th>
-                            <th>serialid</th>
-                    </thead>
-
-                    <tbody>
-                        <% @table4_data.each do |table_data| %>
-                        <tr>
-                            <td><%= table_data[0] %></td>
-                            <td><%= table_data[1] %></td>
-                            <td><%= table_data[2] %></td>
-                            <td><%= table_data[3] %></td>
-                            <td><%= table_data[4] %></td>
-                            <td><%= table_data[5] %></td>
-                            <td><%= table_data[6] %></td>
-                            <td><%= table_data[7] %></td>
-
-
-                        </tr>
-                        <% end %>
-                        
-                    </tbody> 
-
-                </table>  
-
-
-
-
-        </div>
-        <div class="row">
-        </div>
-    </section>
-</body>
-</html>
+         </div>
+      </section>
+    </body>
+  </html>
