@@ -3,9 +3,19 @@ $(document).ready(function() {
 
   var data_collection = '';
 
-  $.getJSON("/data_sets/json/us.gov.government-spending.fpds.top-100-contractors.json", function(json) {
-     console.log(json.result); // this will show the info it in firebug console
+  // $.getJSON("/data_sets/json/us.gov.government-spending.fpds.top-100-contractors.json", function(json) {
+  //    console.log(json.result); // this will show the info it in firebug console
+  //    $( json.result ).each(function( key, value ) {
+  //      console.log( global_vendor_name )
+  //    });
+  //  });
+
+   $.getJSON("/data_sets/json/Fuel_Consumption.json", function(json) {
+     console.log(json.data); // this will show the info it in firebug console
+     
      $( json.result ).each(function( key, value ) {
+       console.log( value.name );
+       console.log( value.id );
      });
    });
 
