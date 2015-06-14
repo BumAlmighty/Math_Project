@@ -1,19 +1,23 @@
 
-<!doctype html>
-<html class="no-js">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+
   <meta charset="utf-8">
-  <title>Home | Gists.io</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name=viewport content="width=device-width, initial-scale=1">
   <meta name="mobile-web-app-capable" content="yes">
 
-  <!-- build:css styles/vendor.css -->
-  <!-- bower:css -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
-  <!-- endbower -->
-  <!-- endbuild -->
-  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+  <link href="styles/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/freelancer.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
@@ -25,6 +29,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/javascript/semantic.min.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
+
   <script src="../js/jquery-1.11.3.min.js"></script>
   <script src="../js/highcharts/highcharts.js"></script>
   <script src="http://code.highcharts.com/highcharts-more.js"></script>
@@ -33,24 +38,53 @@
   <script src="../js/graph_page.js"></script>
 
   <script src="../js/renewable_energy_by_country_graph.js"></script>
+
+  <title> Zeo's Statistics Project</title>
 </head>
 
-<body>
+<body id="page-top" class="index">
 
-  <nav class="ui fixed menu inverted navbar">
-    <a href="/" class="brand item">Renewable Energy Sources </a>
-    <a href="/" class="item">About</a>
-    <a href="/tables" class="item">Data Table <%#= @zeo %></a>
-    <a href="/graphs" class="active item">Graphs</a>
-  </nav> <!-- end nav -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#page-top">Zeo's Statistics Project</a>
+    </div>
 
-  <main class="ui page grid">
-    <div class="row">
-      <div class="center aligned starter column">
-        <h1 class="ui header">About</h1>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+        <a href="/"></a>
+        </li>
+        <li class="page-scroll">
+        <a href="/" class="item">About</a>
+        </li>
+        <li class="page-scroll">
+        <a href="/tables" class="item">Data Table</a>
+        <!-- <a href="#about">About</a> -->
+        </li>
+        <li class="page-scroll">
+        <a href="/graphs" class="item">Graphs</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+  </nav>
 
-        <!-- highcharts container 
-      -->
+  <section id="datatable-container" class="">
+    <div class="container">
+      <h1 class="ui header">About</h1>
+
       <div id="test"></div>
 
       <div id="renewable_energy_container" style="min-width: 310px; height: 800px; margin: 0 auto">
@@ -74,13 +108,9 @@
       <p>Use this document as a way to quickly start any new project.</p>
       <p><b>All you get is this text and a mostly barebones disfigured the momentum no the "write" moment of all </b></p>
     </div>
-
   </div>
-  <div class="row">
-  </div>
+</section>
 
-
-</main>
 
 <script type="text/javascript">
       // if you mess up replace from here
@@ -802,6 +832,5 @@
 });
 
 </script>
-
 </body>
 </html>
