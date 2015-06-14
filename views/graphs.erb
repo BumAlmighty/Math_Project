@@ -29,6 +29,7 @@
     <script src="../js/highcharts/highcharts.js"></script>
     <script src="http://code.highcharts.com/highcharts-more.js"></script>
     <script src="../js/highcharts/modules/exporting.src.js"></script>
+    <script src="../js/papaparse.min.js"></script>
     <script src="../js/graph_page.js"></script>
   </head>
 
@@ -130,7 +131,22 @@
 
       // if you mess up replace to here
 
+
       // graph  Area Basic
+      var renewable_energy_by_country_data = [];
+      Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb-eu.sd.sd-cc.sd-cc-nrg.tsdcc330-242b5fc76aa31f1296271ff8a7fb207c.csv', {
+      // Papa.parse('/data_sets/csv/enigma-gov.eu.eurostats.tb.t-envir.t-nrg.t-nrg-quant.ten00082-10d5bc224875239455fe744da71a31d0.csv', {
+        download: true,
+        complete: function(results) {
+        console.log(results);
+          $( results.data ).each(function( key, value ) {
+            if (key != 0) {
+              console.log( value[3] );
+            }
+          });
+        }
+      })
+
 
       $(function () {
         $('#container2').highcharts({
@@ -138,7 +154,7 @@
             type: 'area'
           },
           title: {
-            text: 'US and USSR nuclear stockpiles'
+            text: 'Share of renewable energy by Country'
           },
           subtitle: {
             text: 'Source: <a href="http://thebulletin.metapress.com/content/c4120650912x74k7/fulltext.pdf">' +
@@ -180,7 +196,8 @@
               }
             }
           },
-          series: [{
+          series: [
+          {
             name: 'USA',
             data: [null, null, null, null, null, 6, 11, 32, 110, 235, 369, 640,
               1005, 1436, 2063, 3057, 4618, 6444, 9822, 15468, 20434, 24126,

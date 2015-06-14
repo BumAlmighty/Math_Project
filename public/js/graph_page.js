@@ -21,7 +21,7 @@ $(document).ready(function() {
   //      console.log( value.ownerstate );
   //      console.log(name + ' ' + key)
   //    });
- //  });
+  //  });
 
   // $.getJSON("/data_sets/json/us.states.ny.cities.nyc.electricity-consumption.json", function(json) {
   //   console.log(json.result); // this will show the info it in firebug console
