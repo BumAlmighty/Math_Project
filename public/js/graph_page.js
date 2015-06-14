@@ -10,15 +10,6 @@ $(document).ready(function() {
   //    });
   //  });
 
-   $.getJSON("/data_sets/json/Fuel_Consumption.json", function(json) {
-     console.log(json.data); // this will show the info it in firebug console
-     
-     $( json.result ).each(function( key, value ) {
-       console.log( value.name );
-       console.log( value.id );
-     });
-   });
-
   // this data has latitude and longitude
   // $.getJSON("/data_sets/json/us.gov.eia.860.json", function(json) {
   //    console.log(json.result); // this will show the info it in firebug console
