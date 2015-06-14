@@ -1,12 +1,9 @@
-var name = 'Record';
-
-console.log('hello ' + name);
-
 $(document).ready(function() {
-  $("#test").css({"background-color": "yellow", "width": "100%", "height": "auto"});
-
   // /tables page
-  $('table.display').dataTable();
+  $('#table2').dataTable({
+    'paging'  : true,
+    'searching' : true
+  });
 
   // $.getJSON("../js/data_sets/us.gov.eia.860.json", function(json) {
   //    console.log(json.result); // this will show the info it in firebug console
